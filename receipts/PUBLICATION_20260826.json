@@ -1,0 +1,105 @@
+{
+  "schema": "illusie-publication-receipt/v1",
+  "status": "PASS",
+  "verified_at": "2026-08-26T04:07:01.7048711+02:00",
+  "scope": "Complete Volume I plus the already sealed partial Volume II checkpoint through printed page 164; printed page 165 and later excluded",
+  "rights_disposition": {
+    "open_license_asserted": false,
+    "github_visibility": "PRIVATE",
+    "zenodo_record_visibility": "public metadata",
+    "zenodo_file_visibility": "restricted"
+  },
+  "local_collection": {
+    "path": "output/cumulative-through-volume-II-p164",
+    "files": 17,
+    "bytes": 60863049,
+    "ordered_filename_bytes_sha256_digest": "1642B2A61260B70942A31F8BE677A8E0A7AF451CB106110B78CF1F0A55C17C64",
+    "manifest": {
+      "path": "output/cumulative-through-volume-II-p164/manifest.csv",
+      "bytes": 2330,
+      "sha256": "CE15C730558655A80D3FB8101945CB3BD811238856CDD2FC35466CBC2C465872"
+    }
+  },
+  "volume_I": {
+    "status": "complete",
+    "pages_per_edition": 380,
+    "french_pdf": {
+      "bytes": 6561439,
+      "sha256": "3E573DD23521052F9A880A217F6068547F8B148BFF21D7BDA688BD28FD279634"
+    },
+    "english_pdf": {
+      "bytes": 6550549,
+      "sha256": "ECFD3F6BF7DAD06F0641662F3EC40A761694AA9657953955E5D2DF36BE7FADBA"
+    },
+    "final_receipt": {
+      "bytes": 8851,
+      "sha256": "28C368052924C867D594F35D1434559E3D15AA164E73CA5A85156F9DF3E7CF6B"
+    }
+  },
+  "volume_II_checkpoint": {
+    "status": "partial_checkpoint",
+    "last_sealed_printed_page": 164,
+    "first_excluded_unsealed_printed_page": 165,
+    "pages_per_checkpoint_pdf": 171,
+    "boundary_receipt_sha256": "F31C35B237E18874838EA515C73035E76277843FDD945F1087C625E9124AE334",
+    "workflow_cursor_sha256": "BBD0DA3322A27473300A10BD180AF3976F098AC49EEEA9DAC075E29DE90AA3D8",
+    "source_snapshot": {
+      "files": 513,
+      "uncompressed_bytes": 2131166,
+      "ordered_path_bytes_sha256_digest": "B1E673A0D699EDAD13C59863633263FBFCA2345C3C29DBE4B3057ECCB2BDC571",
+      "zip_bytes": 824981,
+      "zip_sha256": "9EF0D7E7F98C22B65980A5681B246315012A1B22A47BCC493FDDB8DBDA6325A4",
+      "p165_entries": 0
+    },
+    "visual_qa": {
+      "rendered_pages_per_lane": [1, 67, 68, 171],
+      "p60_to_p61_join": "PASS",
+      "terminal_p164": "PASS"
+    }
+  },
+  "github": {
+    "repository": "KokunoYumeto/illusie-cotangent-complex-editions",
+    "url": "https://github.com/KokunoYumeto/illusie-cotangent-complex-editions",
+    "visibility": "PRIVATE",
+    "default_branch": "main",
+    "volume_I_release": {
+      "tag": "v1.0.0-volume-I",
+      "target_commit": "511afed7ae04b2bb8a8c43747bffdf40b0001807",
+      "url": "https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/tag/v1.0.0-volume-I",
+      "assets": 7,
+      "server_digest_result": "PASS"
+    },
+    "cumulative_release": {
+      "tag": "v1.1.0-volume-II-p164-checkpoint",
+      "target_commit": "122467d6a62dd92e6a513280a6a364901b1507b0",
+      "url": "https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/tag/v1.1.0-volume-II-p164-checkpoint",
+      "assets": 17,
+      "bytes": 60863049,
+      "server_sha256_digests_match_local": true
+    }
+  },
+  "zenodo": {
+    "record_id": 21843163,
+    "doi": "10.5281/zenodo.21843163",
+    "concept_doi": "10.5281/zenodo.21792257",
+    "record_url": "https://zenodo.org/records/21843163",
+    "title": "Luc Illusie — Complexe cotangent et déformations: Volume I complete; Volume II through page 164",
+    "version": "2026-08-26 Volume I complete; Volume II through page 164 checkpoint",
+    "publication_date": "2026-08-26",
+    "public_metadata_readback": {
+      "result": "PASS",
+      "latest_version_record_id": 21843163,
+      "anonymous_file_inventory_hidden_as_expected": true
+    },
+    "authenticated_restricted_file_readback": {
+      "files": 17,
+      "bytes": 60863049,
+      "byte_mismatches": 0,
+      "sha256_mismatches": 0,
+      "server_md5_mismatches": 0,
+      "result": "PASS"
+    }
+  },
+  "credential_material_present": false,
+  "result": "PASS"
+}
