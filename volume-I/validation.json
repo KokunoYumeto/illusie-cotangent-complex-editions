@@ -1,0 +1,132 @@
+{
+  "schema": "illusie-volume-I-release-validation/v1",
+  "status": "HARD_PASS",
+  "sealed_on": "2026-08-25",
+  "scope": "Complete 380-page Volume I diplomatic French witness, corrected French edition, source-aligned English edition, and two reproducible local source packages",
+  "authority": {
+    "doi": "10.1007/BFb0059052",
+    "bytes": 14349904,
+    "sha256": "1855B49FE461B13B1CBAEE1341C8FC3E3E0CDDC034C54ABEC1165AF061B90A56",
+    "pages": 380,
+    "included": false
+  },
+  "integration_ledger": {
+    "path": "controls/VOLUME_I_INTEGRATION_FIXES.json",
+    "bytes": 13663,
+    "sha256": "8B037D2C8BC10353F1FBE88387EA7977746B80736D0F86F0A2D054EB03F18863",
+    "fixes": 9,
+    "status": "HARD_PASS"
+  },
+  "builds": [
+    {
+      "lane": "fr_diplomatic",
+      "pdf": {"path": "builds/volume_I_complete_20260825_r1/fr_diplomatic/book.pdf", "bytes": 3187076, "sha256": "881F18E82DFCFBFFF936E9CC9014B2C6892E5A6C9EBB0A58E3CE696B08653E70", "pages": 380},
+      "log": {"path": "builds/volume_I_complete_20260825_r1/fr_diplomatic/build.log", "bytes": 140855, "sha256": "6C85A651B4A22B67A0062C1E77E367964B794434BF2AFA0005F72ADDCC3150BD"},
+      "hard_errors": 0,
+      "undefined_controls": 0,
+      "duplicate_destinations": 0,
+      "undefined_references_or_citations": 0,
+      "final_rerun_warnings": 0,
+      "overfull_hboxes": 196,
+      "underfull_hboxes": 21,
+      "missing_characters": 15,
+      "font_warnings": 238
+    },
+    {
+      "lane": "fr_corrected",
+      "pdf": {"path": "release/volume_I/french.pdf", "bytes": 6561439, "sha256": "3E573DD23521052F9A880A217F6068547F8B148BFF21D7BDA688BD28FD279634", "pages": 380},
+      "log": {"path": "builds/volume_I_complete_20260825_r1/fr/build.log", "bytes": 134093, "sha256": "9F3C10FEC76FBC75503590BF69306FC71E4356D59776DAF731CE01C62B3945AA"},
+      "hard_errors": 0,
+      "undefined_controls": 0,
+      "duplicate_destinations": 0,
+      "undefined_references_or_citations": 0,
+      "final_rerun_warnings": 0,
+      "overfull_hboxes": 196,
+      "underfull_hboxes": 1,
+      "missing_characters": 0,
+      "font_warnings": 238
+    },
+    {
+      "lane": "en",
+      "pdf": {"path": "release/volume_I/english.pdf", "bytes": 6550549, "sha256": "ECFD3F6BF7DAD06F0641662F3EC40A761694AA9657953955E5D2DF36BE7FADBA", "pages": 380},
+      "log": {"path": "builds/volume_I_complete_20260825_r1/en/build.log", "bytes": 130181, "sha256": "51DD84CFB80F9EA0F24FAD525F4F637B732544894F892C034EF5CFDED627F3F9"},
+      "hard_errors": 0,
+      "undefined_controls": 0,
+      "duplicate_destinations": 0,
+      "undefined_references_or_citations": 0,
+      "final_rerun_warnings": 0,
+      "overfull_hboxes": 194,
+      "underfull_hboxes": 0,
+      "missing_characters": 0,
+      "font_warnings": 241
+    }
+  ],
+  "structural_validation": {
+    "page_count_per_lane": 380,
+    "page_size_inventory_per_lane": {
+      "447 x 698.6 pts": 200,
+      "450.6 x 704 pts": 178,
+      "450.6 x 707.6 pts": 1,
+      "461.6 x 700.4 pts": 1
+    },
+    "direct_literal_hypertargets_per_lane": 3937,
+    "duplicate_literal_hypertarget_groups_per_lane": 0,
+    "stable_identifier_candidates_per_lane": 4464,
+    "duplicate_stable_identifier_groups_per_lane": 0
+  },
+  "terminal_catalogue": {
+    "vol_matches_per_lane": 202,
+    "unique_volumes_per_lane": 202,
+    "exact_range": "38-239",
+    "missing_per_lane": 0,
+    "isbn_occurrences_per_lane": {
+      "3-540-05686-6": 1,
+      "0-387-05686-6": 1
+    },
+    "pages_377_380_nonblank": true
+  },
+  "visual_validation": {
+    "integration_pages_231_259_261_279_332_337_344_350_355": "PASS",
+    "index_pages_364_366": "PASS",
+    "terminal_pages_377_380": "PASS"
+  },
+  "packages": [
+    {
+      "edition": "corrected French",
+      "path": "release/volume_I/french-package.zip",
+      "bytes": 10304974,
+      "sha256": "4E48E7B00DE77AEB7C4CB46F93D246BE53C1A2C3F048D512768D2BD2813CB08A",
+      "file_entries": 564,
+      "uncompressed_bytes": 19745959,
+      "missing_entries": 0,
+      "unexpected_entries": 0,
+      "content_mismatches": 0,
+      "verification": "PASS"
+    },
+    {
+      "edition": "source-aligned English",
+      "path": "release/volume_I/english-package.zip",
+      "bytes": 10268007,
+      "sha256": "29D5F46C8A6CC12F91D157FFB8AF53BE07F7DA25DDAF9D45F90171936D19F369",
+      "file_entries": 564,
+      "uncompressed_bytes": 19709046,
+      "missing_entries": 0,
+      "unexpected_entries": 0,
+      "content_mismatches": 0,
+      "verification": "PASS"
+    }
+  ],
+  "source_package_closure": {
+    "selected_files_per_edition": 559,
+    "tex_files_per_edition": 532,
+    "lane_modules_per_edition": 378,
+    "common_tex_files_per_edition": 152,
+    "graphics_per_edition": 1,
+    "machine_readable_files_per_edition": 26,
+    "unresolved_inputs_or_graphics": 0,
+    "volume_II_tex_files": 0,
+    "metadata_scope": "shared two-volume semantic spine with bounded Volume II identities and cross-references"
+  },
+  "rights_disposition": "local-preservation-only",
+  "result": "PASS"
+}

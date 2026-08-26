@@ -1,0 +1,180 @@
+{
+  "schema": "illusie-volume-I-final-receipt/v1",
+  "status": "HARD_PASS",
+  "sealed_on": "2026-08-25",
+  "scope": "Complete standalone Volume I: diplomatic French source witness, corrected French edition, source-aligned English edition, shared machine-readable pre-Stacks scaffold, and two verified local source packages",
+  "authority": {
+    "title": "Complexe cotangent et déformations I",
+    "doi": "10.1007/BFb0059052",
+    "bytes": 14349904,
+    "sha256": "1855B49FE461B13B1CBAEE1341C8FC3E3E0CDDC034C54ABEC1165AF061B90A56",
+    "pages": 380,
+    "printed_to_physical_page_rule": "printed page N maps to physical PDF page N+18",
+    "authority_bytes_changed": false,
+    "included_in_release": false
+  },
+  "errata_authority": {
+    "path": "tmp/p266_authority_audit/ErrSLN239.pdf",
+    "bytes": 99487,
+    "sha256": "3E34E616DFE86DD4405CFA43DEE42A46904507B4C7B1AEAFBA1A704B139D90E4",
+    "pages": 2,
+    "included_in_release": false
+  },
+  "integration_ledger": {
+    "path": "controls/VOLUME_I_INTEGRATION_FIXES.json",
+    "bytes": 13663,
+    "sha256": "8B037D2C8BC10353F1FBE88387EA7977746B80736D0F86F0A2D054EB03F18863",
+    "fixes": 9,
+    "status": "HARD_PASS"
+  },
+  "readers": [
+    {"lane": "fr_diplomatic", "path": "readers/fr_diplomatic.tex", "bytes": 2091, "sha256": "87C82F2489F8EC91DCC644F304CED79540E15AF60B1C106719F9C24C69C5DC70"},
+    {"lane": "fr_corrected", "path": "readers/fr.tex", "bytes": 11884, "sha256": "1713E53BB4D7BF3EC45CCCDB655D86B8E73ACB39586C0F9FFE32B665CD0B0970"},
+    {"lane": "en", "path": "readers/en.tex", "bytes": 9681, "sha256": "28174E78EBD10E80294140E771B3CEC9921F9D327279D487CE793596C2091E18"},
+    {"lane": "shared", "path": "readers/volume_I_build_compat.tex", "bytes": 819, "sha256": "7B3B59FBBAC334A0846CB44796FEC761CF04FA6FFF1C07D330F66FD3E5A4384C"}
+  ],
+  "builds": [
+    {
+      "lane": "fr_diplomatic",
+      "passes": 3,
+      "pdf": {"path": "builds/volume_I_complete_20260825_r1/fr_diplomatic/book.pdf", "bytes": 3187076, "sha256": "881F18E82DFCFBFFF936E9CC9014B2C6892E5A6C9EBB0A58E3CE696B08653E70", "pages": 380},
+      "log": {"path": "builds/volume_I_complete_20260825_r1/fr_diplomatic/build.log", "bytes": 140855, "sha256": "6C85A651B4A22B67A0062C1E77E367964B794434BF2AFA0005F72ADDCC3150BD"},
+      "hard_errors": 0,
+      "undefined_controls": 0,
+      "duplicate_destinations": 0,
+      "undefined_references_or_citations": 0,
+      "final_rerun_warnings": 0,
+      "overfull_hboxes": 196,
+      "underfull_hboxes": 21,
+      "missing_characters": 15,
+      "font_warnings": 238,
+      "warning_disposition": "accepted after proportional visual verification; missing U+2003 occurrences are spacing-only on printed pp.73-75"
+    },
+    {
+      "lane": "fr_corrected",
+      "passes": 3,
+      "pdf": {"path": "builds/volume_I_complete_20260825_r1/fr/book.pdf", "bytes": 6561439, "sha256": "3E573DD23521052F9A880A217F6068547F8B148BFF21D7BDA688BD28FD279634", "pages": 380},
+      "log": {"path": "builds/volume_I_complete_20260825_r1/fr/build.log", "bytes": 134093, "sha256": "9F3C10FEC76FBC75503590BF69306FC71E4356D59776DAF731CE01C62B3945AA"},
+      "hard_errors": 0,
+      "undefined_controls": 0,
+      "duplicate_destinations": 0,
+      "undefined_references_or_citations": 0,
+      "final_rerun_warnings": 0,
+      "overfull_hboxes": 196,
+      "underfull_hboxes": 1,
+      "missing_characters": 0,
+      "font_warnings": 238,
+      "warning_disposition": "accepted after proportional visual verification"
+    },
+    {
+      "lane": "en",
+      "passes": 3,
+      "pdf": {"path": "builds/volume_I_complete_20260825_r1/en/book.pdf", "bytes": 6550549, "sha256": "ECFD3F6BF7DAD06F0641662F3EC40A761694AA9657953955E5D2DF36BE7FADBA", "pages": 380},
+      "log": {"path": "builds/volume_I_complete_20260825_r1/en/build.log", "bytes": 130181, "sha256": "51DD84CFB80F9EA0F24FAD525F4F637B732544894F892C034EF5CFDED627F3F9"},
+      "hard_errors": 0,
+      "undefined_controls": 0,
+      "duplicate_destinations": 0,
+      "undefined_references_or_citations": 0,
+      "final_rerun_warnings": 0,
+      "overfull_hboxes": 194,
+      "underfull_hboxes": 0,
+      "missing_characters": 0,
+      "font_warnings": 241,
+      "warning_disposition": "accepted after proportional visual verification"
+    }
+  ],
+  "structural_validation": {
+    "page_count_per_lane": 380,
+    "page_size_inventory_per_lane": {
+      "447 x 698.6 pts": 200,
+      "450.6 x 704 pts": 178,
+      "450.6 x 707.6 pts": 1,
+      "461.6 x 700.4 pts": 1
+    },
+    "direct_literal_hypertargets_per_lane": 3937,
+    "duplicate_literal_hypertarget_groups_per_lane": 0,
+    "stable_identifier_candidates_per_lane": 4464,
+    "duplicate_stable_identifier_groups_per_lane": 0,
+    "runtime_duplicate_destinations_per_lane": 0
+  },
+  "text_validation": {
+    "terminal_catalogue_vol_matches_per_lane": 202,
+    "terminal_catalogue_unique_volumes_per_lane": 202,
+    "terminal_catalogue_exact_range": "38-239",
+    "terminal_catalogue_missing_per_lane": 0,
+    "isbn_3_540_05686_6_occurrences_per_lane": 1,
+    "isbn_0_387_05686_6_occurrences_per_lane": 1,
+    "terminal_non_whitespace_characters_by_page": {"377": 6207, "378": 6118, "379": 5043, "380": 34}
+  },
+  "visual_validation": {
+    "integration_pages": [231, 259, 261, 279, 332, 337, 344, 350, 355],
+    "integration_result": "PASS",
+    "index_pages": [364, 366],
+    "index_result": "PASS: terminal rows are complete, legible, and unclipped in all lanes",
+    "terminal_pages": [377, 378, 379, 380],
+    "terminal_result": "PASS"
+  },
+  "source_package_closure": {
+    "selected_files_per_edition": 559,
+    "tex_files_per_edition": 532,
+    "lane_modules_per_edition": 378,
+    "common_tex_files_per_edition": 152,
+    "graphics_per_edition": 1,
+    "machine_readable_files_per_edition": 26,
+    "unresolved_inputs_or_graphics": 0,
+    "volume_II_tex_files": 0,
+    "cross_lane_tex_files": 0,
+    "absolute_path_loaders": 0,
+    "metadata_scope": "shared two-volume semantic spine with bounded Volume II identities and cross-references; internal provenance receipts are not bundled"
+  },
+  "package_verification": [
+    {
+      "edition": "corrected French",
+      "path": "release/volume_I/french-package.zip",
+      "bytes": 10304974,
+      "sha256": "4E48E7B00DE77AEB7C4CB46F93D246BE53C1A2C3F048D512768D2BD2813CB08A",
+      "file_entries": 564,
+      "uncompressed_bytes": 19745959,
+      "directory_entries": 0,
+      "missing_entries": 0,
+      "unexpected_entries": 0,
+      "content_mismatches": 0,
+      "result": "PASS"
+    },
+    {
+      "edition": "source-aligned English",
+      "path": "release/volume_I/english-package.zip",
+      "bytes": 10268007,
+      "sha256": "29D5F46C8A6CC12F91D157FFB8AF53BE07F7DA25DDAF9D45F90171936D19F369",
+      "file_entries": 564,
+      "uncompressed_bytes": 19709046,
+      "directory_entries": 0,
+      "missing_entries": 0,
+      "unexpected_entries": 0,
+      "content_mismatches": 0,
+      "result": "PASS"
+    }
+  ],
+  "release_artifacts": [
+    {"path": "release/volume_I/french.pdf", "role": "corrected French edition", "bytes": 6561439, "sha256": "3E573DD23521052F9A880A217F6068547F8B148BFF21D7BDA688BD28FD279634", "pages": 380},
+    {"path": "release/volume_I/english.pdf", "role": "source-aligned English edition", "bytes": 6550549, "sha256": "ECFD3F6BF7DAD06F0641662F3EC40A761694AA9657953955E5D2DF36BE7FADBA", "pages": 380},
+    {"path": "release/volume_I/french-package.zip", "role": "corrected French source package", "bytes": 10304974, "sha256": "4E48E7B00DE77AEB7C4CB46F93D246BE53C1A2C3F048D512768D2BD2813CB08A"},
+    {"path": "release/volume_I/english-package.zip", "role": "source-aligned English source package", "bytes": 10268007, "sha256": "29D5F46C8A6CC12F91D157FFB8AF53BE07F7DA25DDAF9D45F90171936D19F369"},
+    {"path": "release/volume_I/README.md", "role": "release readme", "bytes": 1764, "sha256": "84B30CD67224DB2F548D3FB019611D0FDF25D4F0A413471EFBF2AA40BC44A3F0"},
+    {"path": "release/volume_I/LICENSES.md", "role": "rights statement", "bytes": 985, "sha256": "9D36A0001DF319D7C72DFBFE773B625840FA800E0D962EFBD2200B98474713F6"},
+    {"path": "release/volume_I/validation.json", "role": "release validation", "bytes": 4988, "sha256": "C5338DD710387C5716DF535C42915B195E6FAB4C7788710A2DFA8F5D75666424"},
+    {"path": "release/volume_I/manifest.csv", "role": "release manifest", "bytes": 1277, "sha256": "6A7B1E138828EDAF3530116789E3A171D1FA9F2875D8DDEDD86734496120DBB1"}
+  ],
+  "hygiene_validation": {
+    "reader_pdfs_scanned": 3,
+    "reader_text_characters_scanned": 2927195,
+    "package_text_files_scanned_per_edition": 562,
+    "absolute_private_path_hits": 0,
+    "credential_marker_hits": 0,
+    "internal_task_or_build_status_prose_hits_in_reader_output": 0,
+    "result": "PASS"
+  },
+  "rights_disposition": "local-preservation-only",
+  "publication_performed": false,
+  "result": "PASS"
+}
