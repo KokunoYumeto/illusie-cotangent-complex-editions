@@ -1,0 +1,55 @@
+{
+  "schema": "illusie-volume-II-checkpoint-validation/v1",
+  "status": "HARD_PASS",
+  "generated_on": "2026-08-26",
+  "scope": "Volume II front matter and printed pages 1-164; printed page 165 and later are excluded",
+  "boundary": {
+    "last_sealed_printed_page": 164,
+    "authority_physical_page": 170,
+    "first_unsealed_printed_page": 165,
+    "receipt_sha256": "F31C35B237E18874838EA515C73035E76277843FDD945F1087C625E9124AE334",
+    "workflow_cursor_sha256": "BBD0DA3322A27473300A10BD180AF3976F098AC49EEEA9DAC075E29DE90AA3D8"
+  },
+  "pdfs": [
+    {
+      "lane": "fr_diplomatic",
+      "path": "output/pdf/volume-II-checkpoint-through-p164/volume-II-fr-diplomatic-through-p164.pdf",
+      "bytes": 8761987,
+      "sha256": "C69CAC8D073B6B7B56D6382BB792B5206FE22B2B80AA7741417FE0E28E02E8B2",
+      "pages": 171
+    },
+    {
+      "lane": "fr_corrected",
+      "path": "output/pdf/volume-II-checkpoint-through-p164/volume-II-fr-corrected-through-p164.pdf",
+      "bytes": 8761558,
+      "sha256": "DA6752C4FAB7ADFC4198F525AEE97F91345B4D64597C6AD63CFC51E8596B5BA0",
+      "pages": 171
+    },
+    {
+      "lane": "en",
+      "path": "output/pdf/volume-II-checkpoint-through-p164/volume-II-english-through-p164.pdf",
+      "bytes": 8725244,
+      "sha256": "97C4C56278223E9C1CD820C7768B93DAD264D6E66D8ED4B9C7E54D5B2D9D21E8",
+      "pages": 171
+    }
+  ],
+  "pdf_validation": {
+    "encrypted": false,
+    "page_size_per_lane_points": "504x720",
+    "text_extraction_nonempty_pages_per_lane": [1, 67, 68, 171],
+    "rendered_visual_pages_per_lane": [1, 67, 68, 171],
+    "p60_to_p61_join": "PASS",
+    "terminal_p164": "PASS"
+  },
+  "source_snapshot": {
+    "path": "output/source/volume-II-source-snapshot-through-p164.zip",
+    "bytes": 824981,
+    "sha256": "9EF0D7E7F98C22B65980A5681B246315012A1B22A47BCC493FDDB8DBDA6325A4",
+    "entries": 513,
+    "uncompressed_bytes": 2131166,
+    "ordered_path_bytes_sha256_digest": "B1E673A0D699EDAD13C59863633263FBFCA2345C3C29DBE4B3057ECCB2BDC571",
+    "p165_entries": 0,
+    "zip_test": "PASS"
+  },
+  "result": "PASS"
+}

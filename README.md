@@ -2,9 +2,10 @@
 
 This repository is the release index for the source-faithful French and
 source-aligned English working editions of Luc Illusie's *Complexe cotangent
-et déformations*. Volume I (Springer LNM 239) is complete and sealed. Volume
-II remains under production by its separate single-writer task and will be
-added as a later cumulative release.
+et déformations*. Volume I (Springer LNM 239) is complete and sealed. A
+separate cumulative checkpoint includes the already sealed Volume II material
+through printed page 164; further Volume II production remains with its
+separate single-writer task.
 
 The Volume I release contains:
 
@@ -21,6 +22,10 @@ is not redistributed.
 
 The continuing preservation lineage is Zenodo concept DOI
 [`10.5281/zenodo.21792257`](https://doi.org/10.5281/zenodo.21792257).
+
+The exact partial-Volume-II boundary evidence is under
+[`volume-II-checkpoint-through-p164/`](volume-II-checkpoint-through-p164/).
+Printed page 165 is excluded because direct-authority review reopened it.
 
 ## Rights
 

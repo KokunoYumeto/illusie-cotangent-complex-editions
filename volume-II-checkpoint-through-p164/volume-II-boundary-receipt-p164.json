@@ -1,0 +1,227 @@
+{
+  "schema": "illusie-volume-ii-page-audit-receipt/v1",
+  "status": "HARD_PASS",
+  "manifest_validation": "PASS",
+  "audit_date": "2026-08-25",
+  "volume": "II",
+  "printed_page": 164,
+  "source": {
+    "authority_pdf": "%USERPROFILE%\\Documents\\Papors\\OS\\Complexe Cotangent et Déformations II (Luc Illusie (auth.)).pdf",
+    "authority_pdf_sha256": "3ECAD82EBF13C74AC02CA452CF56FE1330BF5BF6F1CF00D2656AE7118AA44E13",
+    "authority_physical_page": 170,
+    "boundary_physical_pages": [169, 171],
+    "page_size_points": [504, 720]
+  },
+  "boundaries": {
+    "incoming": "Physical p.169 / printed p.163 ends with unpunctuated (11.3.3.4); physical p.170 / printed p.164 begins the qualifiers completing it, starting pour E in ob D^-(A^{C_bullet(S_o)}), F in ob D(A^{Ner(bar Delta prime)}), et. No p.163 text is repeated.",
+    "outgoing": "Physical p.170 / printed p.164 ends exactly with the unpunctuated continuation Cette formule, jointe à l'isomorphisme (cf. (11.3.2.3)); physical p.171 / printed p.165 begins with (11.3.3.11). No p.165 text is included.",
+    "audit": "PASS"
+  },
+  "reconciliation": {
+    "signature": "SC4+NORM0+ERR1",
+    "SC": 4,
+    "NORM": 0,
+    "ERR": 1,
+    "intentional_notation": "Lowercase roman S_o and H_o; digit i_0 in both chains; C_bullet; Ner(bar Delta prime); underived and derived direct limits; 16 ordinary right arrows; two mapsto arrows; two integrals; two big-oplus carriers; five equalities; ten memberships; four mid-dot ellipsis carriers; and formulas (11.3.3.5) through (11.3.3.10) are intentional and retained.",
+    "source_composition": "Diplomatic French preserves four detached marks and the erroneous reference (6.6.4.4.). Applying precisely those five body transformations, plus the lane-identifying header change, makes diplomatic French byte-identical to corrected French; wording and mathematics are otherwise unchanged.",
+    "normalizations": [],
+    "source_errors": [
+      "Correct the printed reference (6.6.4.4.) to (6.6.4.4)."
+    ],
+    "canonical_reconciliation_payload": [
+      "SC4+NORM0+ERR1",
+      "SC1 attach the comma after the underived direct-limit operator in prose",
+      "SC2 attach the final comma of (11.3.3.6)",
+      "ERR1 correct (6.6.4.4.) to (6.6.4.4)",
+      "SC3 attach the final comma of (11.3.3.10)",
+      "SC4 attach the final period after the bottom bisimplicial construction"
+    ],
+    "normalized_bytes": 6317,
+    "normalized_sha256": "E102B2F3C9637FC4282A96AEFE20A58522D13FB9989E350800255E26EEFB8E79",
+    "unresolved": 0,
+    "diplomatic_corrected_equivalence_after_reconciliation": true
+  },
+  "stacks_project": {
+    "status": "blank_unasserted",
+    "tag": null
+  },
+  "semantic_destinations": {
+    "count": 18,
+    "ordered_sha256": "34081ABA11C46994E3F1390843320C447FB47A8E88612A301B839D3EAB506404",
+    "pdf_set_sha256": "D3F2B4585F55BE43F547240EB5EFDFA75ED608F2D973FAB4DF6D4B429AA7E543",
+    "source_order_parity": true,
+    "pdf_set_parity": true,
+    "all_three_lane_parity": true
+  },
+  "inventory_per_lane": {
+    "numbered_formula_carriers": 6,
+    "directed_arrows": 18,
+    "right_arrows": 16,
+    "mapsto_arrows": 2,
+    "integral_carriers": 2,
+    "bigoplus_carriers": 2,
+    "equality_signs": 5,
+    "membership_signs": 10,
+    "mid_dot_ellipsis_carriers": 4,
+    "direct_limit_carriers": 6,
+    "ner_bar_delta_prime_carriers": 14,
+    "extractable_prime_carriers": 14,
+    "extractable_macron_carriers": 14,
+    "notes_or_footnotes": 0,
+    "raster_math": 0
+  },
+  "build": {
+    "engine": "LuaLaTeX",
+    "serial": true,
+    "source_date_epoch": 1787263200,
+    "passes_executed": {
+      "fr_diplomatic": 5,
+      "fr_corrected": 5,
+      "en": 5
+    },
+    "byte_stability_replay_passes": {
+      "fr_diplomatic": 1,
+      "fr_corrected": 1,
+      "en": 1
+    },
+    "byte_stable_on_final_replay": true,
+    "page_count_per_pdf": 1,
+    "page_size_points": [504, 720],
+    "embedded_subset_fonts_per_pdf": 21,
+    "type1_fonts_per_pdf": 13,
+    "subset_cid_type0c_fonts_per_pdf": 6,
+    "subset_cid_truetype_fonts_per_pdf": 2,
+    "unembedded_fonts_per_pdf": 0,
+    "raster_images_per_pdf": 0,
+    "diagnostic_hits_per_lane": 0,
+    "font_warning_hits_per_lane": 0,
+    "poppler_replacement_character_hits_per_lane": 0,
+    "mutool_replacement_character_hits_per_lane": 0,
+    "poppler_disallowed_control_hits_per_lane": 0,
+    "mutool_disallowed_control_hits_per_lane": 0,
+    "poppler_form_feed_page_separator_hits_per_lane": 1,
+    "mutool_form_feed_page_separator_hits_per_lane": 1,
+    "right_arrow_extraction_hits_per_extractor_per_lane": 16,
+    "mapsto_extraction_hits_per_extractor_per_lane": 2,
+    "integral_extraction_hits_per_extractor_per_lane": 2,
+    "bigoplus_extraction_hits_per_extractor_per_lane": 2,
+    "equality_extraction_hits_per_extractor_per_lane": 5,
+    "membership_extraction_hits_per_extractor_per_lane": 10,
+    "mid_dot_extraction_hits_per_extractor_per_lane": 12,
+    "prime_u2032_extraction_hits_per_extractor_per_lane": 14,
+    "macron_extraction_hits_per_extractor_per_lane": 14,
+    "prime_to_digit_zero_substitution": false,
+    "next_page_leakage_per_lane": false
+  },
+  "visual_qa": {
+    "render_dpi": 600,
+    "render_dimensions_px": [4200, 6000],
+    "lanes_inspected": ["fr_diplomatic", "fr_corrected", "en"],
+    "result": "PASS",
+    "visual_holds": 0,
+    "defects": [],
+    "direct_final_full_page_inspection": "PASS",
+    "independent_post_repair_source_build_visual_crosscheck": "PASS",
+    "ink_bboxes_95_percent": {
+      "fr_diplomatic": [3109, 3186, 452, 509],
+      "fr_corrected": [3109, 3186, 452, 509],
+      "en": [3291, 3186, 454, 509]
+    },
+    "edge_ink": false
+  },
+  "transients": {
+    "copy_hash_validation": "PASS",
+    "removed": true,
+    "removed_file_count": 36,
+    "removed_bytes": 5151241,
+    "removed_paths": ["tmp/v2_p164_staging"]
+  },
+  "file_count": 17,
+  "files": [
+    {
+      "path": "tex/volume_II/fr_diplomatic/ch6/164_p164.tex",
+      "bytes": 6725,
+      "sha256": "285DB04008CE3A9C18F2B5378D9CC3B9D7F503FD46C30E52F9DBB93259643DA7"
+    },
+    {
+      "path": "tex/volume_II/fr_corrected/ch6/164_p164.tex",
+      "bytes": 6681,
+      "sha256": "7C58CCA7405EE76374B5576FF94EE134523CC9B5917B966C62581CAB30157F91"
+    },
+    {
+      "path": "tex/volume_II/en/ch6/164_p164.tex",
+      "bytes": 6654,
+      "sha256": "B3339B34D30AA7698613C22A0E12B764F0E20497625D7ABF5E0690C98159CEF9"
+    },
+    {
+      "path": "tmp/v2_p164_authority_audit/boundary_p169_300.png",
+      "bytes": 345100,
+      "sha256": "845ADDC9C806B0A2FD339404B58C1ECB6F818936AAD4959B75AA6A9F0E52955E"
+    },
+    {
+      "path": "tmp/v2_p164_authority_audit/authority_p170_600.png",
+      "bytes": 866728,
+      "sha256": "8E9D849E18719372599A4EFBD2484041FC7E486724F721359A034DB696EA68FB"
+    },
+    {
+      "path": "tmp/v2_p164_authority_audit/boundary_p171_300.png",
+      "bytes": 324325,
+      "sha256": "C06BAC09D0282D7A462942027D3BD9B4DBA7398256B70D344F5CE83C9988EB02"
+    },
+    {
+      "path": "tmp/v2_p164_authority_audit/authority_p170_poppler.txt",
+      "bytes": 2685,
+      "sha256": "600EBE46E4451E57F9D12DFC2284A7795C341CD2B47667259BBEB48ED3FD4F5E"
+    },
+    {
+      "path": "tmp/v2_p164_authority_audit/p164_fd.pdf",
+      "bytes": 155307,
+      "sha256": "AA7F8A5DA334B6482CD3826D0744297AFA217A249652A120731BC80C54BFCE88"
+    },
+    {
+      "path": "tmp/v2_p164_authority_audit/p164_fc.pdf",
+      "bytes": 155296,
+      "sha256": "0E1E093A16EA04E4FED61DE6A1FE551E92781C80FD223E0666BDB23E85FD3BA5"
+    },
+    {
+      "path": "tmp/v2_p164_authority_audit/p164_en.pdf",
+      "bytes": 155013,
+      "sha256": "8F49057C97851FFE1E011D9DC163331BB06FE013608984FE8CED2F3C1B193E16"
+    },
+    {
+      "path": "tmp/v2_p164_authority_audit/p164_fd.log",
+      "bytes": 47699,
+      "sha256": "15FDA14311DD037495A621D9FF602051D17457C698534C296C4D77FA35696524"
+    },
+    {
+      "path": "tmp/v2_p164_authority_audit/p164_fc.log",
+      "bytes": 47698,
+      "sha256": "ED660C1C3AA2867A2E8A4689440794990888CD295D7F4204AFCECE7BE8FBB4C4"
+    },
+    {
+      "path": "tmp/v2_p164_authority_audit/p164_en.log",
+      "bytes": 47689,
+      "sha256": "5BEC4FAAECAFCA32D15CC9A23456A4999FA4160FDB00F6A4575385B27882A8B9"
+    },
+    {
+      "path": "tmp/v2_p164_authority_audit/p164_fd_600.png",
+      "bytes": 547010,
+      "sha256": "AE5C44B36D8A390ABDE6047AC7C7C9109C9AD760F07A869FD77102CDA615CBA4"
+    },
+    {
+      "path": "tmp/v2_p164_authority_audit/p164_fc_600.png",
+      "bytes": 546779,
+      "sha256": "B96020D0F1564DF1C6C34DCFDF82C38EB93C9EF663574B7E3CB2F9EEA937267B"
+    },
+    {
+      "path": "tmp/v2_p164_authority_audit/p164_en_600.png",
+      "bytes": 538456,
+      "sha256": "7BF885E40F127B77C8F7C79F784C3DCD980F34291B2E0DAD40031AD0DF170015"
+    },
+    {
+      "path": "tmp/v2_p164_authority_audit/packet.md",
+      "bytes": 3935,
+      "sha256": "B676255B46985D1DB4BB313DE81B9C764E674F66CF83C272FAE657698A944CB8"
+    }
+  ]
+}

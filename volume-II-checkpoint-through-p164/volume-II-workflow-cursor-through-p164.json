@@ -1,0 +1,356 @@
+{
+  "schema": "illusie-volume-ii-native-tex-workflow-cursor/v1",
+  "updated_at": "2026-08-25",
+  "status": "active",
+  "objective": "Complete Luc Illusie, Complexe cotangent et déformations II (LNM 283 / Volume II) as native-TeX French diplomatic, French corrected, and source-aligned English editions, proceeding sequentially from the seven-leaf front matter through printed page 304 and the separate Springer erratum page 305; maintain authority/provenance records and semantic destinations, perform bounded serial build/render/visual QA, preserve blank/unasserted Stacks status unless directly established, make no Volume I mutations, and preserve the ready completed work in the correct non-duplicative publication lineage with anonymous byte-for-byte readback.",
+  "scope": {
+    "volume": "II",
+    "start": "seven-leaf front matter",
+    "end": "printed page 304 plus separate Springer erratum page 305",
+    "lanes": [
+      "tex/volume_II/fr_diplomatic",
+      "tex/volume_II/fr_corrected",
+      "tex/volume_II/en"
+    ],
+    "write_boundary": "Volume II lane sources, bounded Volume II QA evidence, this cursor, this checkpoint log, final Volume II release artifacts, and sanitized publication receipts only; no Volume I mutations"
+  },
+  "authority_chain": {
+    "primary_pdf": "C:\\Users\\Floris\\Documents\\Papors\\OS\\Complexe Cotangent et Déformations II (Luc Illusie (auth.)).pdf",
+    "primary_pdf_sha256": "3ECAD82EBF13C74AC02CA452CF56FE1330BF5BF6F1CF00D2656AE7118AA44E13",
+    "page_boundary_rule": "Inspect only the target physical page and immediately adjacent physical pages; the primary PDF image controls wording, notation, emphasis, diagrams, and printed-page boundaries.",
+    "erratum_rule": "Page 305 is the separate Springer erratum authority and must remain separately identified from printed pages 1-304."
+  },
+  "sequential_workflow": [
+    "Identify the first unsealed printed page from live sources and receipt manifests.",
+    "Inspect the target authority page plus its immediate predecessor and successor; record exact incoming and outgoing boundaries.",
+    "Author native-TeX diplomatic French, corrected French, and source-aligned English with identical semantic-destination order.",
+    "Record every diplomatic-to-corrected transformation as SC, NORM, or ERR; leave Stacks blank/unasserted unless direct support is established.",
+    "Build each lane in isolation, strictly serially, with deterministic SOURCE_DATE_EPOCH/FORCE_SOURCE_DATE and converged LuaLaTeX passes.",
+    "Verify one-page geometry, embedded/subset fonts, zero unintended raster math, clean logs, text boundaries, destination parity, and absence of leaked control text.",
+    "Render fresh 600-dpi lane PDFs and inspect every full page for clipping, collisions, missing glyphs, malformed formulas/diagrams, and boundary leakage.",
+    "Copy bounded authority/build/render evidence into a page-local durable audit directory, write packet and receipt, replay every manifest byte count and SHA-256, then remove only exact recreatable page-local transients.",
+    "Advance exactly one printed page; after p304, complete the separately identified Springer erratum p305.",
+    "Run a cumulative requirement-by-requirement audit of all three lanes, authority provenance, semantic destinations, page coverage, erratum separation, builds, renders, privacy, and the no-Volume-I-mutation invariant.",
+    "When the complete artifact is ready and worth preserving, publish immediately to the correct existing concept/version lineage without duplication, preserve inherited public files unless the release plan replaces them, and anonymously read back every required public byte; persist a sanitized credential-free receipt."
+  ],
+  "validation_gates": {
+    "per_page": [
+      "authority bounds PASS",
+      "three-lane reconciliation PASS",
+      "semantic destination source-order and PDF-set parity PASS",
+      "strict serial deterministic build convergence PASS",
+      "PDF geometry/font/raster/log/text checks PASS",
+      "fresh 600-dpi full-page visual inspection PASS",
+      "durable receipt manifest replay PASS"
+    ],
+    "terminal": [
+      "seven-leaf front matter through printed p304 present in all three lanes",
+      "separate Springer erratum p305 present and identified",
+      "no unresolved reconciliation or visual holds",
+      "Stacks assertions supported or blank/unasserted",
+      "no Volume I mutations",
+      "complete release artifacts built and verified",
+      "correct non-duplicative publication lineage used",
+      "anonymous public filename/byte-count/SHA-256 readback PASS",
+      "sanitized publication receipt persisted"
+    ]
+  },
+  "terminal_condition": "Complete only when every page and front-matter leaf in scope, the separate erratum, every three-lane source/build/render/provenance/semantic gate, the no-Volume-I invariant, and the final preservation publication plus anonymous byte readback are all proved by current artifacts.",
+  "durable_external_logbooks": {
+    "cursor": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\english_germanic\\03_working_translations\\illusie_cotangent_complex_I_II_bilingual_canonical_stacks_20260804_r1\\evidence\\volume_II_native_tex_workflow_cursor.json",
+    "append_only_checkpoints": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\english_germanic\\03_working_translations\\illusie_cotangent_complex_I_II_bilingual_canonical_stacks_20260804_r1\\evidence\\volume_II_native_tex_checkpoint_log.jsonl"
+  },
+  "current_cursor": {
+    "first_unsealed_printed_page": 165,
+    "authority_physical_page": 171,
+    "next_action": "Rebuild printed p165 in all three lanes after the authority-required S_1-prime correction, but only after all unrelated TeX engines are clear; then rerun structural/text/destination/font/raster QA and fresh 600-dpi visual QA, replace the superseded p165 durable build evidence, write a new replayed HARD_PASS receipt, and only then advance to p166.",
+    "paused_later_work": "p166 and later pages remain paused until the corrected p165 is resealed."
+  },
+  "independently_replayed_contiguous_receipt_window": {
+    "printed_pages": [109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164],
+    "result": "PASS",
+    "note": "This checkpoint independently replayed all 56 receipts and 915 manifest entries totaling 192,012,631 bytes for pp109-164. The former p165 seal was explicitly reopened after direct 600-dpi authority evidence established two missing primes on S_1; its old build evidence is superseded and excluded until the corrected three-lane rebuild and QA complete. P115 reflects the post-seal authority correction from x_o to x_0 and its complete three-lane rebuild and QA. Earlier coverage is not inferred from conversation state and remains subject to the terminal cumulative audit.",
+    "receipts": [
+      {
+        "printed_page": 109,
+        "path": "tmp/v2_p109_authority_audit/receipt.json",
+        "sha256": "E423335A9EF4D655450F6BAAB7AFDD7B9DB2978EA65AFA46903E7EE0FF7EBFE2"
+      },
+      {
+        "printed_page": 110,
+        "path": "tmp/v2_p110_authority_audit/receipt.json",
+        "sha256": "D89AE4073C6D897D0E3E1A46EF2BB966E9E39DE5FB30C0AAD19EC9502B1CA109"
+      },
+      {
+        "printed_page": 111,
+        "path": "tmp/v2_p111_authority_audit/receipt.json",
+        "sha256": "530614676C110238A907A5C41C450408B209D3FE235C832B309A509C14B40DF6"
+      },
+      {
+        "printed_page": 112,
+        "path": "tmp/v2_p112_authority_audit/receipt.json",
+        "sha256": "26A8215A25958DA084C2A24136B95BF95D2F3297D5FA489ED1C1454C6813D149"
+      },
+      {
+        "printed_page": 113,
+        "path": "tmp/v2_p113_authority_audit/receipt.json",
+        "sha256": "01A444AFE2689C53452B5A54F2F405D90085A7A4349FF8387D0C2EB0B8C9CCB4"
+      },
+      {
+        "printed_page": 114,
+        "path": "tmp/v2_p114_authority_audit/receipt.json",
+        "sha256": "F9B88D35780F3450ED67742A94B93DC00883BD0BD1E9CF942EBC2CA5CB6D0CF2"
+      },
+      {
+        "printed_page": 115,
+        "path": "tmp/v2_p115_authority_audit/receipt.json",
+        "sha256": "E538963BAB99AF41B0D11277610C8CB6D95BA188261FBB95C9A2093AA1FF3CD9"
+      },
+      {
+        "printed_page": 116,
+        "path": "tmp/v2_p116_authority_audit/receipt.json",
+        "sha256": "0B6CD642A602978A9CCB8CF9B69BBA2CA50FB98F3B7D2DBC46A3E89B1EF9C384"
+      },
+      {
+        "printed_page": 117,
+        "path": "tmp/v2_p117_authority_audit/receipt.json",
+        "sha256": "4B08B326B54C600403FDD7CE937CD539DA9C580A7228A9B7EF6099C3C8398A2E"
+      },
+      {
+        "printed_page": 118,
+        "path": "tmp/v2_p118_authority_audit/receipt.json",
+        "sha256": "F10D20EB4C02BEAA9AA19BC247D58073410EDA6B6B8A2FF38D8E2ACA95863BFE"
+      },
+      {
+        "printed_page": 119,
+        "path": "tmp/v2_p119_authority_audit/receipt.json",
+        "sha256": "3E608B02FB42D587F56A5928BBAFEE5BEAE52382D354522400EECF007FB03458"
+      },
+      {
+        "printed_page": 120,
+        "path": "tmp/v2_p120_authority_audit/receipt.json",
+        "sha256": "02FB34BF18E8F307E4FE68AD29227D1984FF823D6FE162C864D1F19B46ED89E1"
+      },
+      {
+        "printed_page": 121,
+        "path": "tmp/v2_p121_authority_audit/receipt.json",
+        "sha256": "BB693B67F8586241618CC0DC31B6487ABE204204DA81884337A1FAA77F7B7B14"
+      },
+      {
+        "printed_page": 122,
+        "path": "tmp/v2_p122_authority_audit/receipt.json",
+        "sha256": "97FA1DEDF654B9E1C089EDCB6264B5AEF2962CEE0E6C27530AA9503A5890C858"
+      },
+      {
+        "printed_page": 123,
+        "path": "tmp/v2_p123_authority_audit/receipt.json",
+        "sha256": "931DB05B94FCA7EE4C336684A99F36D9E3D70023F32CBACDB601ED58E52DE352"
+      },
+      {
+        "printed_page": 124,
+        "path": "tmp/v2_p124_authority_audit/receipt.json",
+        "sha256": "DEA36770265710748F73A589AC99B0DEBF97F49825D41F2A8D492B868792015B"
+      },
+      {
+        "printed_page": 125,
+        "path": "tmp/v2_p125_authority_audit/receipt.json",
+        "sha256": "9E6B4F206A9033C0DE3B981C10F581A7608ED773A221EE373078637C4781EC64"
+      },
+      {
+        "printed_page": 126,
+        "path": "tmp/v2_p126_authority_audit/receipt.json",
+        "sha256": "10DC2808F1A9B86FC26CDDB66A57ADF5A7EF4F63150DC7056F6F38A1E147DCFA"
+      },
+      {
+        "printed_page": 127,
+        "path": "tmp/v2_p127_authority_audit/receipt.json",
+        "sha256": "69A8656C59681952FF8985A1B12E8394C3E7ACC988CB9D163022B1700D7881B5"
+      },
+      {
+        "printed_page": 128,
+        "path": "tmp/v2_p128_authority_audit/receipt.json",
+        "sha256": "7CF47AEE3C910C1AC8674FDE94DB84C7A5176C41953B8AE980F6C556BB149ECD"
+      },
+      {
+        "printed_page": 129,
+        "path": "tmp/v2_p129_authority_audit/receipt.json",
+        "sha256": "900559792B084E78AD5867C3E2953029E1C08C6DDCEDD7E4707050B1D61AE782"
+      },
+      {
+        "printed_page": 130,
+        "path": "tmp/v2_p130_authority_audit/receipt.json",
+        "sha256": "1C3436EBEEA0A89F7E24D771C7D0B23B1F4533A631A452A079D1E59E8B642A31"
+      },
+      {
+        "printed_page": 131,
+        "path": "tmp/v2_p131_authority_audit/receipt.json",
+        "sha256": "AB49867DC259FF1C152E288F939285247A8AA98CB8DB9EA1F98B0B2BF1971FE2"
+      },
+      {
+        "printed_page": 132,
+        "path": "tmp/v2_p132_authority_audit/receipt.json",
+        "sha256": "D3E107FA6E9DFEB851FCE92E80D6B72A4B668C08D72BCB9B144A75E9A9D4FD6A"
+      },
+      {
+        "printed_page": 133,
+        "path": "tmp/v2_p133_authority_audit/receipt.json",
+        "sha256": "4BDEE840029FD89D26E59BA0506443F558AF7DD79B90AF8EC68F2D9DBA534B55"
+      },
+      {
+        "printed_page": 134,
+        "path": "tmp/v2_p134_authority_audit/receipt.json",
+        "sha256": "4994A02E4780D5BEAB982CA53102BCDA40756928A6CBF55230D07CD11E6BD4FA"
+      },
+      {
+        "printed_page": 135,
+        "path": "tmp/v2_p135_authority_audit/receipt.json",
+        "sha256": "ABEE87E43D44B962125C2BB3F28F95DE754A206D8E818E00BB98BE09A6CFCBEA"
+      },
+      {
+        "printed_page": 136,
+        "path": "tmp/v2_p136_authority_audit/receipt.json",
+        "sha256": "51F0878613F644C2450EB304E3B8D5D57E48C062F80EAF078ABB624E458E274C"
+      },
+      {
+        "printed_page": 137,
+        "path": "tmp/v2_p137_authority_audit/receipt.json",
+        "sha256": "3FC1BBC4EAFD93AF25E87EEABDB78D6B2416EC422C87CF55528B5976445B4F23"
+      },
+      {
+        "printed_page": 138,
+        "path": "tmp/v2_p138_authority_audit/receipt.json",
+        "sha256": "77D65391373A25D5BECEECE421480659E1FCAF8C9D3761DD2936E83542FF16B2"
+      },
+      {
+        "printed_page": 139,
+        "path": "tmp/v2_p139_authority_audit/receipt.json",
+        "sha256": "61605A8DA2FB3F753B606EDFFD189379AF746A4C5CAF85A4FD7756F0BE49484D"
+      },
+      {
+        "printed_page": 140,
+        "path": "tmp/v2_p140_authority_audit/receipt.json",
+        "sha256": "6327E0CA5EF1C80C6EDDE603E80CD6A9DC64BC1D142E87AFACBBD832D31C086E"
+      },
+      {
+        "printed_page": 141,
+        "path": "tmp/v2_p141_authority_audit/receipt.json",
+        "sha256": "5D9E4896A5CB9AE0549F734C959F5BB6C879764052B6C08531A824FB25D1BB3E"
+      },
+      {
+        "printed_page": 142,
+        "path": "tmp/v2_p142_authority_audit/receipt.json",
+        "sha256": "D6F7378E1723DB008554E37D0F4F54A7441732EE645C35171E332118D8354A20"
+      },
+      {
+        "printed_page": 143,
+        "path": "tmp/v2_p143_authority_audit/receipt.json",
+        "sha256": "586CA0FE520828B8AC41A56B068342ED8C2DAD7FE3226AD0BBF02BCB3BF24E55"
+      },
+      {
+        "printed_page": 144,
+        "path": "tmp/v2_p144_authority_audit/receipt.json",
+        "sha256": "791B8DFB68DA4821DC248E1739A527C587D46F8DC6094B7EFF16A0342E4EFC2C"
+      },
+      {
+        "printed_page": 145,
+        "path": "tmp/v2_p145_authority_audit/receipt.json",
+        "sha256": "73FA9EF2C2613E28ED586790E53F555A80B31997D79E8FEEE312EAC4EB48C654"
+      },
+      {
+        "printed_page": 146,
+        "path": "tmp/v2_p146_authority_audit/receipt.json",
+        "sha256": "F80D1C081C5C32701CDBC3C3BBF0B9DFC26ADDF7902FED984ED00297CEA5B65C"
+      },
+      {
+        "printed_page": 147,
+        "path": "tmp/v2_p147_authority_audit/receipt.json",
+        "sha256": "BDFDB125FA07F64C3F4B1F8FC7CD43586D4DD6EEA72B5B265E7A1640E1F708E1"
+      },
+      {
+        "printed_page": 148,
+        "path": "tmp/v2_p148_authority_audit/receipt.json",
+        "sha256": "83AA554724D3AA2F3F93B338F7FE55D318307A50E339021D6E67D07FB8659ED9"
+      },
+      {
+        "printed_page": 149,
+        "path": "tmp/v2_p149_authority_audit/receipt.json",
+        "sha256": "FB19574DE3497792B56D5613A43B036BEA23A71BC93CB33513ACA19C47EFA6C3"
+      },
+      {
+        "printed_page": 150,
+        "path": "tmp/v2_p150_authority_audit/receipt.json",
+        "sha256": "C2E3D0DDAC6168FFA3F9EAB3364613F1BB8DFEEE6E10CCDAC4B002A19CBF8E50"
+      },
+      {
+        "printed_page": 151,
+        "path": "tmp/v2_p151_authority_audit/receipt.json",
+        "sha256": "8D151194DC86858D7174C1DE1C6D6A9D878AEE06948679F7899296D9F1589C77"
+      },
+      {
+        "printed_page": 152,
+        "path": "tmp/v2_p152_authority_audit/receipt.json",
+        "sha256": "C84F1B0C48277F2DB094006241AE0773FB65D18AC43E0E4F8A084106FCFED031"
+      },
+      {
+        "printed_page": 153,
+        "path": "tmp/v2_p153_authority_audit/receipt.json",
+        "sha256": "318C38487C94D3AF7011B3D094A612716E0A008C12D5A6DC095B5383C8511E1F"
+      },
+      {
+        "printed_page": 154,
+        "path": "tmp/v2_p154_authority_audit/receipt.json",
+        "sha256": "8CBF161D191F0CFE98689B7C250D9F6463F0EE8544261C117C6B95D74324C54E"
+      },
+      {
+        "printed_page": 155,
+        "path": "tmp/v2_p155_authority_audit/receipt.json",
+        "sha256": "3C9D83DCCEB16B07A81715DD17ABCAD180BFD181B50E6C573A567B2B43C36F5C"
+      },
+      {
+        "printed_page": 156,
+        "path": "tmp/v2_p156_authority_audit/receipt.json",
+        "sha256": "BAC3AF87AE657D8C750D4BA80ACD5E7F43CAB5DA66FF57400846ED3F73961063"
+      },
+      {
+        "printed_page": 157,
+        "path": "tmp/v2_p157_authority_audit/receipt.json",
+        "sha256": "9D4D2F3A9212ADECD066C333C9F93A11FD36316FB5784EC04474C5A38B09DF99"
+      },
+      {
+        "printed_page": 158,
+        "path": "tmp/v2_p158_authority_audit/receipt.json",
+        "sha256": "403FA600F550E9A322207DAA691FFDA3B6862B151F6225ED5D4C0A4976C2FD0C"
+      },
+      {
+        "printed_page": 159,
+        "path": "tmp/v2_p159_authority_audit/receipt.json",
+        "sha256": "955DC731EA5BAD8113AC89959061DB877A921A65EC5EDC66B4BEE0BC1C11412B"
+      },
+      {
+        "printed_page": 160,
+        "path": "tmp/v2_p160_authority_audit/receipt.json",
+        "sha256": "3D2B709ED81E33FD8DFDA3425EECFEB871805FBDE5C9AC2A095C60AFA9110E5E"
+      },
+      {
+        "printed_page": 161,
+        "path": "tmp/v2_p161_authority_audit/receipt.json",
+        "sha256": "28E643BCB51099D11E731453CF4FCFF8923A8E97CD6F66D38F63423E0C273A99"
+      },
+      {
+        "printed_page": 162,
+        "path": "tmp/v2_p162_authority_audit/receipt.json",
+        "sha256": "EA06A8156223A340A6DE232BF27883D552B92AC916F4919B5E7C080B618A246B"
+      },
+      {
+        "printed_page": 163,
+        "path": "tmp/v2_p163_authority_audit/receipt.json",
+        "sha256": "24F6739F09BC773FD11A2211EFBD79F5EF6B4F0FAC894F8512619BB564D0657A"
+      },
+      {
+        "printed_page": 164,
+        "path": "tmp/v2_p164_authority_audit/receipt.json",
+        "sha256": "F31C35B237E18874838EA515C73035E76277843FDD945F1087C625E9124AE334"
+      }
+    ]
+  }
+}
