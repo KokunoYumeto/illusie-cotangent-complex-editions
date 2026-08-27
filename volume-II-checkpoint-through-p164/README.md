@@ -24,5 +24,5 @@ direct-authority review and is therefore excluded from every PDF, archive,
 manifest, and coverage claim in this checkpoint. Further Volume II work
 remains owned by its separate production task.
 
-No open licence is asserted. This checkpoint remains under restricted
-preservation access.
+No open licence is asserted. This checkpoint is publicly accessible; public
+access does not itself assert a licence or alter any underlying rights.

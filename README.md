@@ -29,8 +29,9 @@ Printed page 165 is excluded because direct-authority review reopened it.
 
 ## Rights
 
-No open licence is asserted. The repository and release are private while the
-retained rights record remains conservative. See
+No open licence is asserted. The repository and releases are publicly
+accessible. Public access does not itself assert a licence or alter any
+underlying rights. See
 [`volume-I/LICENSES.md`](volume-I/LICENSES.md) for the exact disposition.
 
 ## Verification
