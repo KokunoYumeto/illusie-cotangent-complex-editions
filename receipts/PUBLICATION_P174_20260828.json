@@ -1,0 +1,82 @@
+{
+  "schema": "illusie-cumulative-publication-receipt/v2",
+  "status": "PASS",
+  "verified_at": "2026-08-28T13:50:47.7670639+02:00",
+  "scope": "Volume I complete and byte-preserved; Volume II cumulative checkpoint through accepted printed page 174; printed page 175 and later excluded",
+  "release_packet": {
+    "directory": "output/cumulative-through-volume-II-p174",
+    "files": 17,
+    "bytes": 63663786,
+    "ordered_filename_bytes_sha256_payload_bytes": 1718,
+    "ordered_filename_bytes_sha256_digest": "17A2998F9E5BB628E8438A4F183830414CCF0ACA7F84FFE22DD31AE3E2A074C4",
+    "manifest": {
+      "bytes": 2327,
+      "sha256": "558AF28A4CEF53B7841AAD0E7BEFF2470A941366DC5611283E251570E8C3E3BA",
+      "rows": 16,
+      "row_mismatches": 0
+    },
+    "volume_i_byte_mutations": 0,
+    "first_excluded_volume_ii_page": 175
+  },
+  "github": {
+    "repository": "KokunoYumeto/illusie-cotangent-complex-editions",
+    "url": "https://github.com/KokunoYumeto/illusie-cotangent-complex-editions",
+    "visibility": "public",
+    "private": false,
+    "boundary_commit": "62f768e8d9aab362a5c6bcbdbf745be8732bd1aa",
+    "release_id": 378446688,
+    "release_tag": "v1.2.0-volume-II-p174-checkpoint",
+    "release_url": "https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/tag/v1.2.0-volume-II-p174-checkpoint",
+    "draft": false,
+    "prerelease": false,
+    "anonymous_readback": {
+      "files": 17,
+      "bytes": 63663786,
+      "byte_mismatches": 0,
+      "sha256_mismatches": 0,
+      "missing_files": 0,
+      "result": "PASS"
+    }
+  },
+  "zenodo": {
+    "concept_doi": "10.5281/zenodo.21792257",
+    "predecessor_record_id": 22134585,
+    "record_id": 22143716,
+    "doi": "10.5281/zenodo.22143716",
+    "record_url": "https://zenodo.org/records/22143716",
+    "status": "published",
+    "access_right": "open",
+    "is_latest_version": true,
+    "anonymous_readback": {
+      "files": 17,
+      "bytes": 63663786,
+      "byte_mismatches": 0,
+      "sha256_mismatches": 0,
+      "server_md5_mismatches": 0,
+      "missing_files": 0,
+      "result": "PASS"
+    }
+  },
+  "inventory": [
+    {"filename": "manifest.csv", "bytes": 2327, "sha256": "558AF28A4CEF53B7841AAD0E7BEFF2470A941366DC5611283E251570E8C3E3BA"},
+    {"filename": "README.md", "bytes": 1444, "sha256": "78566CE65939469961B548FF02F468DE5A1910A3C2B6F6E5784BD8F0B27352B7"},
+    {"filename": "RIGHTS.md", "bytes": 842, "sha256": "F259F1AE618C77C59985643E69EE91681CEE5BA44F552C7EF4515B90DA99DF11"},
+    {"filename": "volume-I-english-source.zip", "bytes": 10268007, "sha256": "29D5F46C8A6CC12F91D157FFB8AF53BE07F7DA25DDAF9D45F90171936D19F369"},
+    {"filename": "volume-I-english.pdf", "bytes": 6550549, "sha256": "ECFD3F6BF7DAD06F0641662F3EC40A761694AA9657953955E5D2DF36BE7FADBA"},
+    {"filename": "volume-I-final-receipt.json", "bytes": 8851, "sha256": "28C368052924C867D594F35D1434559E3D15AA164E73CA5A85156F9DF3E7CF6B"},
+    {"filename": "volume-I-french-source.zip", "bytes": 10304974, "sha256": "4E48E7B00DE77AEB7C4CB46F93D246BE53C1A2C3F048D512768D2BD2813CB08A"},
+    {"filename": "volume-I-french.pdf", "bytes": 6561439, "sha256": "3E573DD23521052F9A880A217F6068547F8B148BFF21D7BDA688BD28FD279634"},
+    {"filename": "volume-I-validation.json", "bytes": 4988, "sha256": "C5338DD710387C5716DF535C42915B195E6FAB4C7788710A2DFA8F5D75666424"},
+    {"filename": "volume-II-boundary-receipt-p174.json", "bytes": 10326, "sha256": "5D0D06366FF5607A86B51076F37D4E6DE7D70D7A7EA9B7DB3ED7AD3DBA211714"},
+    {"filename": "volume-II-english-through-p174.pdf", "bytes": 9639969, "sha256": "38728A677AD4A1963BD7D063342851B41969144A96EFA26D93F3966AB4338E9A"},
+    {"filename": "volume-II-fr-corrected-through-p174.pdf", "bytes": 9680047, "sha256": "3E0345D85375CC836E77BED6444B06F6AFAFFD9A501D3184F38309975F79E412"},
+    {"filename": "volume-II-fr-diplomatic-through-p174.pdf", "bytes": 9680508, "sha256": "4E064F9AAEB09FBCACA03C3528ACACC2F95EE9CA51D1D09EDF15BF3020D76A8B"},
+    {"filename": "volume-II-release-cursor-through-p174.json", "bytes": 3550, "sha256": "CC21D1540362995EB0FAF039802338AF5F430959C9BC61D6975E6735A782314C"},
+    {"filename": "volume-II-source-manifest-through-p174.csv", "bytes": 60468, "sha256": "872D40CC5EA3A10E11EBD60E7D72D568D70F32F33423B072711BFE872503A2B6"},
+    {"filename": "volume-II-source-snapshot-through-p174.zip", "bytes": 881175, "sha256": "EDB8AFE73323F0E4E59C4618C05D328648FC135098E06A4B389B244D0BD0CC44"},
+    {"filename": "volume-II-validation-through-p174.json", "bytes": 4322, "sha256": "3368E3239EE14274B11D34DF210D6626BCC8BD06AB78000F0D4754CCA03DE8D0"}
+  ],
+  "public_access_restrictions": 0,
+  "credential_material_present": false,
+  "result": "PASS"
+}
