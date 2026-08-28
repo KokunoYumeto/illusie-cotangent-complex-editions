@@ -1,0 +1,67 @@
+{
+  "schema": "illusie-volume-II-cumulative-release-cursor/v1",
+  "status": "HARD_PASS",
+  "generated_on": "2026-08-28",
+  "scope": "Volume II seven-leaf front matter and printed pages 1-174 in French diplomatic, French corrected, and source-aligned English; printed page 175 and later are excluded",
+  "authority": {
+    "title": "Complexe cotangent et déformations II",
+    "bytes": 3525502,
+    "sha256": "3ECAD82EBF13C74AC02CA452CF56FE1330BF5BF6F1CF00D2656AE7118AA44E13",
+    "authority_bytes_included": false
+  },
+  "accepted_boundary": {
+    "last_sealed_printed_page": 174,
+    "authority_physical_page": 180,
+    "first_excluded_printed_page": 175,
+    "boundary_receipt": "volume-II-boundary-receipt-p174.json",
+    "boundary_receipt_bytes": 10326,
+    "boundary_receipt_sha256": "5D0D06366FF5607A86B51076F37D4E6DE7D70D7A7EA9B7DB3ED7AD3DBA211714",
+    "producer_cursor_at_acceptance_bytes": 21589,
+    "producer_cursor_at_acceptance_sha256": "B7FD3CDF87E6679CE0EB8B5A9188E9E9651E4FFC6E79E1A0AE6F269D77458877",
+    "cumulative_replay": {
+      "receipt_window": "109-174",
+      "receipts": 66,
+      "manifest_entries": 1085,
+      "manifest_bytes": 225678070,
+      "ordered_replay_sha256": "B9BBADD221050A2D6AD89D50E736632058BE9F0C9EA5CA5ABD27E7557895FD01",
+      "result": "PASS"
+    }
+  },
+  "base_checkpoint": {
+    "github_tag": "v1.1.0-volume-II-p164-checkpoint",
+    "last_printed_page": 164,
+    "pdf_pages_per_lane": 171,
+    "boundary_receipt_sha256": "F31C35B237E18874838EA515C73035E76277843FDD945F1087C625E9124AE334",
+    "source_snapshot_sha256": "9EF0D7E7F98C22B65980A5681B246315012A1B22A47BCC493FDDB8DBDA6325A4"
+  },
+  "appended_page_receipts": [
+    {"printed_page": 165, "sha256": "D0FE760EFBB6A3378814505997A9A48AFBB60FD3825BCA23E3EA2F2FF11F792A"},
+    {"printed_page": 166, "sha256": "638D07FB891CC0D42F379A32FB215D59379C182CCABD031946F7DF92B619373E"},
+    {"printed_page": 167, "sha256": "0E5D20A5C11DC48F4A852540F731DE308E9E47FFE87A107048E7EB972DCE2DD1"},
+    {"printed_page": 168, "sha256": "D01ADB105DC37515978A55619D4F3AC07F536886936F505687A94A8CEB681BA3"},
+    {"printed_page": 169, "sha256": "74E554E3B4881A7793A42CB8BB71D2F34047CB09E8876BBB6EE96CCC7679BEE1"},
+    {"printed_page": 170, "sha256": "37C502C66649C979957447C3C76C01EB3969ECEF6750ECCE04242032DFD1C27B"},
+    {"printed_page": 171, "sha256": "A811E1660689BD91C687F9CE002F77BACB0B2E5360D9776DE2B3AB2815370335"},
+    {"printed_page": 172, "sha256": "D23CBAD0FFE3ECDF0C5AC209FA50ACF55E664F8248F2A833A4325D64353A15F7"},
+    {"printed_page": 173, "sha256": "8644D65DC425042C00264F4C24244C227513BB6A0151787BC1011FDBB968AF57"},
+    {"printed_page": 174, "sha256": "5D0D06366FF5607A86B51076F37D4E6DE7D70D7A7EA9B7DB3ED7AD3DBA211714"}
+  ],
+  "excluded_generation": {
+    "printed_page": 175,
+    "reason": "Keeper-rejected semantic QA failure in the English phrase preceding equation (11.5.1.8)",
+    "rejected_receipt_sha256": "8E6B495B0F8F54E2F7AB8B5F3487E1B89C950DD5B0902733EA1C4BD2FABDA6A2",
+    "rejected_producer_cursor_sha256": "7A49BCD6B8188203ADE4F1254F61A35AD61379B7735CF0F9C822576FF00B2310",
+    "coordination_issue": "https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/issues/3"
+  },
+  "publication_lineage": {
+    "github_repository": "https://github.com/KokunoYumeto/illusie-cotangent-complex-editions",
+    "zenodo_concept_doi": "10.5281/zenodo.21792257",
+    "access": "public_open",
+    "no_access_restriction": true
+  },
+  "stacks_project": {
+    "status": "blank_unasserted"
+  },
+  "volume_i_mutations": 0,
+  "result": "PASS"
+}

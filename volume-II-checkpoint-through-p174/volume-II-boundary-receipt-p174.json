@@ -1,0 +1,230 @@
+{
+  "schema": "illusie-volume-ii-page-audit-receipt/v1",
+  "status": "HARD_PASS",
+  "manifest_validation": "PASS",
+  "audit_date": "2026-08-28",
+  "volume": "II",
+  "printed_page": 174,
+  "page_resolution": "Bounded inspection of physical pp.179-181 established the exact p.173/p.174 and p.174/p.175 joins, four detached authority marks, and SC4+NORM0+ERR0. Five serial production passes plus a byte-stability replay per lane converged to stable on-page PDFs; deterministic structural, extraction, destination, font, raster, and content-stream QA passed; and direct plus independent 600-dpi full-page visual QA passed all three lanes.",
+  "source": {
+    "authority_pdf": "%USERPROFILE%\\Documents\\Papors\\OS\\Complexe Cotangent et Déformations II (Luc Illusie (auth.)).pdf",
+    "authority_pdf_sha256": "3ECAD82EBF13C74AC02CA452CF56FE1330BF5BF6F1CF00D2656AE7118AA44E13",
+    "authority_physical_page": 180,
+    "boundary_physical_pages": [179, 181],
+    "page_size_points": [504, 720]
+  },
+  "boundaries": {
+    "incoming": "Physical p.179 / printed p.173 ends with the 11.5 setup paragraph, de T ; on suppose O commutatif. Physical p.180 / printed p.174 begins exactly with 11.5.1, Simplification de (11.3.5.2). No p.173 text is repeated.",
+    "outgoing": "Physical p.180 / printed p.174 ends with the detached comma after commutative square (11.5.1.6). Physical p.181 / printed p.175 begins on a. No p.175 text is included.",
+    "audit": "PASS"
+  },
+  "reconciliation": {
+    "signature": "SC4+NORM0+ERR0",
+    "SC": 4,
+    "NORM": 0,
+    "ERR": 0,
+    "intentional_notation": "Q=Z(C_bullet(A(1)^times)), X=Z(C_bullet(G(1)^times)), N Delta squared, red and st superscripts, Q tensor_Z O, three integral carriers, derived tensor L, N Z^st(A), N O^st(A), RHom, the canonical arrows, the four-arrow commutative square, equation labels (11.5.1.1)-(11.5.1.6), and the underline under Simplification de are retained.",
+    "source_composition": "Diplomatic French preserves the detached comma after (11.5.1.3), period after (11.5.1.3)', period after (11.5.1.4), and comma after diagram (11.5.1.6). Corrected French attaches precisely those four marks. Applying those four SC transformations and removing the four lane-identifying header lines makes diplomatic French byte-identical to corrected French, including the terminal newline.",
+    "normalizations": [],
+    "source_errors": [],
+    "authority_disambiguation": "Direct 600-dpi pixels prove that only Simplification de is underlined, that Notons is not emphasized, that the word is commutatif rather than OCR-only cormmutatif, and that restric-/tion is scan line-end hyphenation. The page has no punctuation after (11.5.1.1), (11.5.1.2), or (11.5.1.5). Fixed ordinary parentheses in the scaled RHom formula are visually faithful and remove the superseded scalable-delimiter extraction defect.",
+    "canonical_reconciliation_payload": [
+      "SC4+NORM0+ERR0",
+      "SC1 attach the comma after (11.5.1.3)",
+      "SC2 attach the period after (11.5.1.3)'",
+      "SC3 attach the period after (11.5.1.4)",
+      "SC4 attach the comma after diagram (11.5.1.6)"
+    ],
+    "normalized_bytes": 5361,
+    "normalized_sha256": "18C0DAB98CB211005BE1041E2BFAA55FB9876ADFFFCE935092F2E5A81B25B951",
+    "unresolved": 0,
+    "diplomatic_corrected_equivalence_after_reconciliation": true
+  },
+  "stacks_project": {
+    "status": "blank_unasserted",
+    "tag": null
+  },
+  "semantic_destinations": {
+    "count": 20,
+    "ordered_sha256": "3B2912A629CCDEED1C943D6B35771B5524245C44FE9A4E5A0ABCFE2375945AAA",
+    "pdf_set_sha256": "F74C9E94316D777C43422A873EC23059211C032E36531DBC5E88711801857876",
+    "source_order_parity": true,
+    "pdf_set_parity": true,
+    "source_pdf_set_parity": true,
+    "all_three_lane_parity": true,
+    "destination_page_indices": [0]
+  },
+  "inventory_per_lane": {
+    "numbered_formula_carriers": 6,
+    "numbered_diagram_carriers": 1,
+    "ordinary_right_arrowheads": 6,
+    "vector_diagram_arrowheads": 4,
+    "ordinary_tensor_products": 6,
+    "delta_glyphs": 5,
+    "integral_glyphs": 3,
+    "multiplication_signs": 2,
+    "bullet_carriers": 4,
+    "underlined_source_spans": 1,
+    "notes_or_footnotes": 0,
+    "raster_math": 0
+  },
+  "build": {
+    "engine": "LuaLaTeX",
+    "serial": true,
+    "source_date_epoch": 1787263200,
+    "final_production_passes_executed": {
+      "fr_diplomatic": 5,
+      "fr_corrected": 5,
+      "en": 5
+    },
+    "byte_stability_replay_passes": {
+      "fr_diplomatic": 1,
+      "fr_corrected": 1,
+      "en": 1
+    },
+    "superseded_preflight_outputs_excluded": true,
+    "byte_stable_on_final_replay": true,
+    "unrelated_tex_engines_clear_before_each_pass": true,
+    "tex_engines_terminated": 0,
+    "page_count_per_pdf": 1,
+    "page_size_points": [504, 720],
+    "embedded_subset_fonts_per_pdf": 12,
+    "type1_fonts_per_pdf": 8,
+    "subset_cid_type0c_fonts_per_pdf": 4,
+    "unembedded_fonts_per_pdf": 0,
+    "raster_images_per_pdf": 0,
+    "diagnostic_hits_per_lane": 0,
+    "font_warning_hits_per_lane": 0,
+    "content_stream_off_page_translation_hits_per_lane": 0,
+    "poppler_replacement_character_hits_per_lane": 0,
+    "mutool_replacement_character_hits_per_lane": 0,
+    "poppler_object_replacement_hits_per_lane": 0,
+    "mutool_object_replacement_hits_per_lane": 0,
+    "poppler_nul_hits_per_lane": 0,
+    "mutool_nul_hits_per_lane": 0,
+    "poppler_disallowed_control_hits_per_lane": 0,
+    "mutool_disallowed_control_hits_per_lane": 0,
+    "poppler_form_feed_page_separator_hits_per_lane": 1,
+    "mutool_form_feed_page_separator_hits_per_lane": 1,
+    "right_arrow_extraction_hits_per_extractor_per_lane": 2,
+    "tensor_product_extraction_hits_per_extractor_per_lane": 6,
+    "delta_extraction_hits_per_extractor_per_lane": 5,
+    "integral_extraction_hits_per_extractor_per_lane": 3,
+    "multiplication_sign_extraction_hits_per_extractor_per_lane": 2,
+    "next_page_leakage_per_lane": false,
+    "predecessor_page_leakage_per_lane": false
+  },
+  "visual_qa": {
+    "render_dpi": 600,
+    "render_dimensions_px": [4200, 6000],
+    "lanes_inspected": ["fr_diplomatic", "fr_corrected", "en"],
+    "result": "PASS",
+    "visual_holds": 0,
+    "defects": [],
+    "direct_final_full_page_inspection": "PASS",
+    "independent_final_full_page_crosscheck": "PASS: read-only keeper crosscheck on the final stable renders",
+    "authority_notation_crosscheck": "PASS: exact incoming and outgoing joins, six formulas, fixed RHom parentheses, all six tensors, five deltas, three integrals, two multiplication signs, one underlined span, true vertical diagram arrows, all diagram labels, and four detached diplomatic marks with attached corrected/English counterparts",
+    "layout_note": "The native typesetting is more vertically compact than the scan but remains clear, collision-free, and unambiguous; no further layout tuning is warranted.",
+    "ink_bboxes_px": {
+      "fr_diplomatic": [453, 509, 3747, 3325],
+      "fr_corrected": [453, 509, 3747, 3325],
+      "en": [453, 509, 3748, 3333]
+    },
+    "edge_ink": false
+  },
+  "transients": {
+    "copy_hash_validation": "PASS",
+    "removed": true,
+    "removed_file_count": 32,
+    "removed_bytes": 3712571,
+    "removed_paths": ["tmp/v2_p174_staging"]
+  },
+  "file_count": 17,
+  "files": [
+    {
+      "path": "tex/volume_II/fr_diplomatic/ch6/174_p174.tex",
+      "bytes": 5743,
+      "sha256": "CA580A61290CF7E1F05A6513C37685C345B7E09407F75359A36058684384ECBA"
+    },
+    {
+      "path": "tex/volume_II/fr_corrected/ch6/174_p174.tex",
+      "bytes": 5693,
+      "sha256": "3A66040F6A8B2649D275E1EFD64A32F1CE3A88C89E94F0BA8DBC29F06E7DB98D"
+    },
+    {
+      "path": "tex/volume_II/en/ch6/174_p174.tex",
+      "bytes": 5661,
+      "sha256": "A88CBF1BA81734E893CD134003501CEDDFF737C945B78B1DC4BDB16925F14C88"
+    },
+    {
+      "path": "tmp/v2_p174_authority_audit/boundary_p179_300.png",
+      "bytes": 471170,
+      "sha256": "690C021D3CBAF3AC132504D687EB7BDB14D11733512964BB6C557C3CFD765BDE"
+    },
+    {
+      "path": "tmp/v2_p174_authority_audit/authority_p180_600.png",
+      "bytes": 641764,
+      "sha256": "230D7725C392DDB2CA3E843502DF3613816DD461C7E8223C1508F054879C975C"
+    },
+    {
+      "path": "tmp/v2_p174_authority_audit/boundary_p181_300.png",
+      "bytes": 344755,
+      "sha256": "712BC4ABCF78BB2AC2A758200C453F76173362BE9CCDEDE8F7A1458B36A22D94"
+    },
+    {
+      "path": "tmp/v2_p174_authority_audit/authority_pp179_181_poppler.txt",
+      "bytes": 6406,
+      "sha256": "E0591C36DB810564D000B2B8DA73499E2073E6B3D88408DE242EACFD4DAF5B75"
+    },
+    {
+      "path": "tmp/v2_p174_authority_audit/p174_fd.pdf",
+      "bytes": 81415,
+      "sha256": "3B0FE419034CA8A408B1BCECAA424DEB747077B85640A8DB4BE1AE4C48922DBC"
+    },
+    {
+      "path": "tmp/v2_p174_authority_audit/p174_fc.pdf",
+      "bytes": 81414,
+      "sha256": "925C2BB285B4D4CA709C27C87C6D9C71E283C13F89AB2233CDAC0F3E937BDEC4"
+    },
+    {
+      "path": "tmp/v2_p174_authority_audit/p174_en.pdf",
+      "bytes": 81113,
+      "sha256": "9E68E36671030247E43170231A816DA6546A9B425290846E8A56F2574AB91065"
+    },
+    {
+      "path": "tmp/v2_p174_authority_audit/p174_fd.log",
+      "bytes": 44822,
+      "sha256": "41F4E6840ABE6E240C19D365AAAB29416AFC263619FBE93ADE92793B8B4A63C3"
+    },
+    {
+      "path": "tmp/v2_p174_authority_audit/p174_fc.log",
+      "bytes": 44821,
+      "sha256": "C218917571BA07DEBCBB719ABDB36089A7632E3D99B3DE53F654C52F92C92333"
+    },
+    {
+      "path": "tmp/v2_p174_authority_audit/p174_en.log",
+      "bytes": 44811,
+      "sha256": "FCD33D96A0E76E296A49B6BA33DE2F8F832C05399B8254E1203A3161CFA2203A"
+    },
+    {
+      "path": "tmp/v2_p174_authority_audit/p174_fd_600.png",
+      "bytes": 472993,
+      "sha256": "FF37BDABEF7C72940268876199479E7BE9F3BBFDBCE1A8666A4748A3657F9732"
+    },
+    {
+      "path": "tmp/v2_p174_authority_audit/p174_fc_600.png",
+      "bytes": 472912,
+      "sha256": "3261CF991223D5936CBFB3C3A42943578DBE42740AC1600BAF3B9193834CF6FE"
+    },
+    {
+      "path": "tmp/v2_p174_authority_audit/p174_en_600.png",
+      "bytes": 479176,
+      "sha256": "55E8012280A3827F2CE2DD6FBA785F2B05EE15AF7CB98AF2AFBDFE5386D21CFE"
+    },
+    {
+      "path": "tmp/v2_p174_authority_audit/packet.md",
+      "bytes": 4707,
+      "sha256": "C5BB5C863D4E71B8D79008C00F9920A919B179F64EF2032B77FFAF5F63537B7D"
+    }
+  ]
+}

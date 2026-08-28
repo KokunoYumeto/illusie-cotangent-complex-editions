@@ -1,0 +1,99 @@
+{
+  "schema": "illusie-volume-II-checkpoint-validation/v2",
+  "status": "HARD_PASS",
+  "generated_on": "2026-08-28",
+  "scope": "Volume II seven-leaf front matter and printed pages 1-174; printed page 175 and later are excluded",
+  "assembly": {
+    "method": "Append the independently sealed p165-p174 one-page PDFs to the anonymously verified public p164 cumulative PDFs, then apply fixed cumulative metadata without changing any page content stream",
+    "base_github_tag": "v1.1.0-volume-II-p164-checkpoint",
+    "base_pages_per_lane": 171,
+    "appended_printed_pages": "165-174",
+    "appended_pages_per_lane": 10,
+    "final_pages_per_lane": 181,
+    "first_171_content_stream_mismatches_per_lane": 0,
+    "appended_content_stream_mismatches_per_lane": 0,
+    "source_page_box_or_rotation_mismatches_per_lane": 0
+  },
+  "boundary": {
+    "last_sealed_printed_page": 174,
+    "authority_physical_page": 180,
+    "first_excluded_printed_page": 175,
+    "receipt_sha256": "5D0D06366FF5607A86B51076F37D4E6DE7D70D7A7EA9B7DB3ED7AD3DBA211714",
+    "release_cursor_sha256": "CC21D1540362995EB0FAF039802338AF5F430959C9BC61D6975E6735A782314C",
+    "p175_exclusion": "The later producer seal is keeper-rejected for a deterministic English semantic defect; it is not included."
+  },
+  "pdfs": [
+    {
+      "lane": "fr_diplomatic",
+      "path": "volume-II-fr-diplomatic-through-p174.pdf",
+      "bytes": 9680508,
+      "sha256": "4E064F9AAEB09FBCACA03C3528ACACC2F95EE9CA51D1D09EDF15BF3020D76A8B",
+      "pages": 181,
+      "pypdf_text_sha256": "A4C943B4F17EAE091297A86B0B0B5D1F40EB23EC954D1C36010FE1EF8AB1F271"
+    },
+    {
+      "lane": "fr_corrected",
+      "path": "volume-II-fr-corrected-through-p174.pdf",
+      "bytes": 9680047,
+      "sha256": "3E0345D85375CC836E77BED6444B06F6AFAFFD9A501D3184F38309975F79E412",
+      "pages": 181,
+      "pypdf_text_sha256": "A3F5ADC90F9629BA3B03D35EBBFB778E96FAE1F1F96F9A67A4EDD5462FECEE4D"
+    },
+    {
+      "lane": "en",
+      "path": "volume-II-english-through-p174.pdf",
+      "bytes": 9639969,
+      "sha256": "38728A677AD4A1963BD7D063342851B41969144A96EFA26D93F3966AB4338E9A",
+      "pages": 181,
+      "pypdf_text_sha256": "5D286D9DEDBAF0C352FF8DC82F766717B88712747FE5E3B542BE7A0ABAEB6944"
+    }
+  ],
+  "pdf_validation": {
+    "encrypted": false,
+    "page_size_points": [504, 720],
+    "rotations": [0],
+    "named_destinations_per_lane": 0,
+    "named_destination_disposition": "Unchanged from the public p164 cumulative PDFs; page-local semantic identities remain in the source snapshot and receipts.",
+    "pypdf_replacement_characters_per_lane": 0,
+    "pypdf_object_replacement_characters_per_lane": 0,
+    "pypdf_nul_characters_per_lane": 0,
+    "pypdf_disallowed_controls_per_lane": 0,
+    "legacy_dual_extraction_baseline": {
+      "poppler_replacement_characters_per_lane": 0,
+      "poppler_disallowed_controls_per_lane": 166,
+      "mupdf_replacement_characters_per_lane": 525,
+      "mupdf_disallowed_controls_per_lane": 0,
+      "new_hits_contributed_by_p165_p174": 0,
+      "disposition": "Counts are exactly identical to the already published p164 base; every appended page had zero such hits in its sealed receipt. No cumulative extraction regression."
+    },
+    "rendered_visual_pages_per_lane": [171, 172, 181],
+    "p164_p165_join": "PASS",
+    "terminal_p174": "PASS",
+    "visual_result": "PASS"
+  },
+  "source_snapshot": {
+    "path": "volume-II-source-snapshot-through-p174.zip",
+    "bytes": 881175,
+    "sha256": "EDB8AFE73323F0E4E59C4618C05D328648FC135098E06A4B389B244D0BD0CC44",
+    "entries": 543,
+    "uncompressed_bytes": 2298317,
+    "manifest_path": "volume-II-source-manifest-through-p174.csv",
+    "manifest_bytes": 60468,
+    "manifest_sha256": "872D40CC5EA3A10E11EBD60E7D72D568D70F32F33423B072711BFE872503A2B6",
+    "ordered_path_bytes_sha256_payload_bytes": 60449,
+    "ordered_path_bytes_sha256_digest": "BACA0143F85A872E4833DE94925313D3DC1EF8550A28C84BCBAA78A4869657E8",
+    "p175_entries": 0,
+    "zip_crc_test": "PASS",
+    "old_p164_entry_byte_mismatches": 0,
+    "new_p165_p174_source_byte_mismatches": 0
+  },
+  "volume_i": {
+    "mutations": 0,
+    "public_assets_preserved_by_exact_byte_identity": true
+  },
+  "access": {
+    "required_state": "public_open",
+    "restriction_or_embargo_allowed": false
+  },
+  "result": "PASS"
+}

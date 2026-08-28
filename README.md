@@ -2,10 +2,10 @@
 
 This repository is the release index for the source-faithful French and
 source-aligned English working editions of Luc Illusie's *Complexe cotangent
-et déformations*. Volume I (Springer LNM 239) is complete and sealed. A
-separate cumulative checkpoint includes the already sealed Volume II material
-through printed page 164; further Volume II production remains with its
-separate single-writer task.
+et déformations*. Volume I (Springer LNM 239) is complete and sealed. The
+latest cumulative checkpoint includes the accepted Volume II material through
+printed page 174; further Volume II production remains with its separate
+single-writer task.
 
 The Volume I release contains:
 
@@ -16,6 +16,12 @@ The Volume I release contains:
   Stacks tags;
 - deterministic validation, manifest, and final-receipt records.
 
+The cumulative Volume II checkpoint contains diplomatic French, corrected
+French, and source-aligned English PDFs through printed page 174, plus the
+exact 543-file source snapshot and deterministic boundary evidence. Printed
+page 175 and all later pages are excluded. The outstanding p175 English defect
+is tracked in [issue 3](https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/issues/3).
+
 The controlling authority is identified by DOI
 [`10.1007/BFb0059052`](https://doi.org/10.1007/BFb0059052). The authority scan
 is not redistributed.
@@ -24,8 +30,8 @@ The continuing preservation lineage is Zenodo concept DOI
 [`10.5281/zenodo.21792257`](https://doi.org/10.5281/zenodo.21792257).
 
 The exact partial-Volume-II boundary evidence is under
-[`volume-II-checkpoint-through-p164/`](volume-II-checkpoint-through-p164/).
-Printed page 165 is excluded because direct-authority review reopened it.
+[`volume-II-checkpoint-through-p174/`](volume-II-checkpoint-through-p174/).
+The earlier p164 checkpoint remains in the repository as version history.
 
 ## Rights
 
@@ -36,7 +42,8 @@ underlying rights. See
 
 ## Verification
 
-The exact artifact inventory is in [`volume-I/manifest.csv`](volume-I/manifest.csv).
-The deterministic QA result is in
-[`volume-I/validation.json`](volume-I/validation.json), and the sealed closure
-record is [`volume-I/VOLUME_I_FINAL_RECEIPT.json`](volume-I/VOLUME_I_FINAL_RECEIPT.json).
+The complete release inventory is attached to each GitHub release and Zenodo
+version as `manifest.csv`. Volume I's deterministic QA and sealed closure
+records remain in [`volume-I/`](volume-I/); the latest Volume II checkpoint
+validation and boundary records are in
+[`volume-II-checkpoint-through-p174/`](volume-II-checkpoint-through-p174/).
