@@ -32,7 +32,7 @@ GPT-5.6 Sol at Ultra effort, with parts done by GPT-6 Astra at Ultra effort, in 
 
 ## Quality
 
-On 6 November 2026 Claude (Anthropic, Claude Opus 5.5) compared three pages line by line with the printed volumes:
+On 6 November 2026 Claude (Anthropic, Claude Opus 5.5 (effort not recorded)) compared three pages line by line with the printed volumes:
 Volume I pages 13 and 35 and Volume II page 155 in the diplomatic French, and the English of Volume I page 13.
 
 - The text, the formulas and the seven commutative diagrams on these pages match the print.
