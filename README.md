@@ -66,10 +66,10 @@ down.
 [06]: https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/download/editions-2026-11-06/06-volume-I-english-sources.zip
 [07]: https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/download/editions-2026-11-06/07-volume-I-francais-diplomatique.tex
 [08]: https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/download/editions-2026-11-06/08-volume-I-francais-diplomatique-sources.zip
-[09]: https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/download/editions-2026-11-06/09-volume-II-francais-corrige.pdf
-[10]: https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/download/editions-2026-11-06/10-volume-II-francais-corrige.tex
-[11]: https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/download/editions-2026-11-06/11-volume-II-francais-diplomatique.pdf
-[12]: https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/download/editions-2026-11-06/12-volume-II-francais-diplomatique.tex
-[13]: https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/download/editions-2026-11-06/13-volume-II-english.pdf
-[14]: https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/download/editions-2026-11-06/14-volume-II-english.tex
-[15]: https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/download/editions-2026-11-06/15-volume-II-sources-completes.zip
+[09]: https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/download/pdf-check-2026-11-15/09-volume-II-francais-corrige.pdf
+[10]: https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/download/pdf-check-2026-11-15/10-volume-II-francais-corrige.tex
+[11]: https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/download/pdf-check-2026-11-15/11-volume-II-francais-diplomatique.pdf
+[12]: https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/download/pdf-check-2026-11-15/12-volume-II-francais-diplomatique.tex
+[13]: https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/download/pdf-check-2026-11-15/13-volume-II-english.pdf
+[14]: https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/download/pdf-check-2026-11-15/14-volume-II-english.tex
+[15]: https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/download/pdf-check-2026-11-15/15-volume-II-sources-completes.zip
