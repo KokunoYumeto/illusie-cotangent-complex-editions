@@ -1,0 +1,40 @@
+"""Primary reviewer's page 140 audit; run once."""
+import sys,csv
+from pathlib import Path
+from datetime import datetime,timezone
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
+from edit_support import ROOT,LAYERS,edit_page,verdict
+page='140';anchor=r'\begin{illusiebodypage}{illusie:I:ch1:p140}'
+ev='LNM239 scan PDF p158 / printed p140: both complete 400-dpi halves and ten page-specific 800-dpi crops personally inspected; four crops expanded before final review. Three reference crops on pp87 and93 also inspected at800dpi, and p93 overview reread. Full source regions read in the prescribed layer order. '
+def region(layer):
+ s=(ROOT/'sources'/LAYERS[layer]).read_text();a=s.index(anchor);b=s.index(r'\end{illusiebodypage}',a);return s[a:b]
+def ch(layer,old,new,line,sid,why,kind='typesetting'):edit_page(layer,anchor,old,new,page,line,sid,ev+why,kind)
+old=region('corrected');new=old.replace('sur $A$,','sur $A$ ,').replace('deux algèbres libres','deux Algèbres libres').replace('une algèbre libre','une Algèbre libre').replace("d'anneaux de","d'Anneaux de").replace('« $B','"$B').replace('$ » est vérifiée','$" est vérifiée')
+ch('corrected',old,new,'capitalization, spacing and quotation convention','II.p140.withdraw-normalizations','Restore three harmless printed capitals, the punctuation space after A, and straight quotes; none is an original error.','reading')
+for layer in ['corrected','English']:
+ ch(layer,'(I 3.3.5.4)','(I 3.3.3.4)','2.2.2(b) cross-reference','II.2.2.2b.shuffle-reference','The printed I 3.3.5.4 does not exist: section3.3.5 ends with3.3.5.2 on p93. The displayed homology map is exactly I3.3.3.4 on p87, applied to B and A-prime; evidence/I_p140_criterion-b.png, evidence/I_p140_shuffle-map-p087.png and evidence/I_p140_tensor-section-p093.png.','misprint of the original')
+ ch(layer,r'\IllusieBaseChangeCorollarySquareCorrectedPOneForty\hspace',r'\IllusieBaseChangeCorollarySquareDiplomaticPOneForty\hspace','corollary square','II.p140.withdraw-added-v','The lower arrow is printed without a label. Its reference to1.1.4.2 identifies the square; an unnamed arrow is well-defined and no error is caused by its not repeating v. Withdraw the optional addition while preserving both macros; evidence/I_p140_square.png.','reading')
+for layer in LAYERS:
+ ch(layer,r'\ReflowBodyFont ',r'\ReflowBodyFont\IllusieUprightLatinMath','all Latin notation','II.p140.upright-Latin','All Latin mathematical and diagram letters are upright.')
+ old=region(layer);new=old.replace(r'\overset{\mathrm L}{\otimes}',r'\overset{\ell}{\otimes}')
+ ch(layer,old,new,'two derived-tensor occurrences','II.p140.derived-tensor-ell','Both derived tensor signs bear script ell. Their tilde arrows are headed and retained; evidence/I_p140_opening.png and evidence/I_p140_criterion.png.')
+ old=region(layer);new=old.replace('\\par\n\\noindent ','\n').replace('quasi-\nisomorphism','quasi-isomorphism')
+ ch(layer,old,new,'proof, criteria and corollary prose','II.p140.prose-continuity','Join printed line wraps within paragraphs; retain the nine anchors, criterion items and displayed formulas.','structure')
+ old=region(layer)
+ if layer=='English':new=old.replace(r'\text{``}',r'\text{\textquotedbl{}}').replace(r"\text{''}",r'\text{\textquotedbl{}}')
+ else:new=old.replace('"$B',r'\textquotedbl{}$B').replace('$" est vérifiée',r'$\textquotedbl{} est vérifiée')
+ ch(layer,old,new,'quoted condition in2.2.2','II.p140.straight-quotes','The source uses upright double quotation marks; evidence/I_p140_criterion.png.')
+ old=region(layer);new=old.replace('% The diplomatic witness omits v on the lower horizontal arrow; corrected\n% French and English restore it from the explicit reference to (1.1.4.2).','% The printed lower horizontal arrow is unnamed; the reference to (1.1.4.2)\n% identifies the square. Both supplied macros are preserved; the unlabeled form is used.')
+ ch(layer,old,new,'diagram source comment','II.p140.diagram-comment','Update the editorial comment to match the reviewed withdrawal of the optional label.','reading')
+ old=region(layer);ch(layer,old,old+r'\clearpage'+'\n','page boundary','II.p140.boundary','Retain the printed boundary within Corollary2.2.3.','structure')
+ch('English','termwise free','degreewise free','freeness assertion','II.p140.degreewise','Use established degreewise for terme a terme.','terminology')
+old=region('English');new=old.replace('There are\ncanonical maps','Of the\ncanonical maps').replace('\\noindent The first is an isomorphism','\\noindent the first is an isomorphism');ch('English',old,new,'sentence enclosing differential display','II.p140.differential-sentence','Restore the source single-sentence construction around the display ending in a comma.','translation')
+verdict(page,'SUPPLIED-SOURCE-DIFF:I:p140','Three capitals, a punctuation space, straight quotes and an unnamed lower square arrow','All optional normalizations and the added v withdrawn','Local source-comparison verdict, not a supplied decision-record ID. No existing French-layer change on this page repairs an original error. A newly identified original cross-reference error is separately corrected to I3.3.3.4 outside the diplomatic layer.',ev+'evidence/I_p140_freeness.png, evidence/I_p140_criterion.png, evidence/I_p140_corollary-bottom.png and evidence/I_p140_square.png.')
+now=datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC');who='GPT-6 Astra Pro; effort not exposed; ILLUSIE continuation 2026-11-19'
+events=[('II.2.2.1.proof-ii-conclusion','R=P tensor_A Q is degreewise polynomial: A[S] tensor_A A[T]=A[S disjoint-union T], locally and hence for the stated free sheaf algebras. The derived-pushout hypothesis makes R->B-prime a quasi-isomorphism, so R->R-prime is one by the commuting augmentations. Derivations from a tensor product are pairs of derivations, proving the first displayed differential map is the isomorphism1.1.2.10. Apply1.2.6.5 to obtain the quasi-isomorphism Omega(R/A) tensor_R R-prime->Omega(R-prime/A); these are degreewise free R-prime-modules. Kunneth allows extension to B-prime. The two resulting summands are exactly L^Delta(B/A) tensor_B B-prime and B-prime tensor_{A-prime} L^Delta(A-prime/A), which proves(ii). This completes the author proof across pp139-140.'),('II.2.2.2.spectral-criteria','In(a), the first-quadrant spectral sequence I3.3.3.1 collapses to q=0 under H_p(Tor_q^A(B,A-prime))=0 for allp and q>0. Its edge map is the canonical map from derived to ordinary tensor; Tor_0 is the ordinary tensor B-prime because the square is cocartesian. Degreewise higher Tor vanishing implies the displayed hypothesis. In(b), use the second spectral sequence I3.3.3.2 with its author-erratum base H_*(A), already applied on p87. Positive Tor degree vanishing leaves only p=0 and identifies homology of the derived tensor with H_*(B) tensor_{H_*(A)} H_*(A-prime). The assumed ordinary shuffle map is I3.3.3.4 and its being an isomorphism makes derived->ordinary tensor a quasi-isomorphism. This proves both criteria in the connective situation; there is no unbounded totalization exchange here.'),('II.2.2.3.square-setup','The ringed-topos square has u:X-prime->X, f:X->Y, f-prime:X-prime->Y-prime and the unnamed lower morphism Y-prime->Y. The explicit reference to1.1.4.2 supplies the same context as pp119-120; inverse image gives the ring square on X-prime of1.1.4.4. The extra lower label v in the supplied corrected layers is explanatory only, so it is not a necessary correction. The rest of the corollary continues on p141 and is not yet read.')]
+with (ROOT/'CHECK_EVENTS.tsv').open('a',newline='') as f:
+ w=csv.writer(f,delimiter='\t',lineterminator='\n')
+ for sid,outcome in events:w.writerow([sid,now,who,'targeted proof check',outcome])
+with (ROOT/'EVIDENCE_INDEX.md').open('a') as f:
+ for p in sorted((ROOT/'evidence').glob('I_p140_*.png')):f.write(f'| evidence/{p.name} | Page140 audit:800-dpi page or earlier-reference crop personally inspected. |\n')
+print('Page140 edits, verdict and three proof checks recorded.')

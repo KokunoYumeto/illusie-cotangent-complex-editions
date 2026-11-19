@@ -1,0 +1,41 @@
+{
+  "scope": "Current active ancillary metadata and scripts only; edition source files and all sources/ contents excluded from content scan. Source snippets inside ancillary files are scanned only as raw privacy-pattern bytes, without interpretation.",
+  "capture_start_utc": "2026-11-19 04:55:20 UTC",
+  "capture_end_utc": "2026-11-19 04:55:20 UTC",
+  "intended_checkpoint_due_utc": "2026-11-19 05:29:37 UTC",
+  "ancillary_files_scanned": 132,
+  "ancillary_bytes_scanned": 13349803,
+  "extension_counts": {
+    ".json": 3,
+    ".log": 1,
+    ".md": 35,
+    ".py": 88,
+    ".tsv": 5
+  },
+  "before_after_ancillary_hashes_equal": true,
+  "eligible_payload_filenames_checked": 1833,
+  "eligible_top_level_counts": {
+    "<root>": 42,
+    "evidence": 1685,
+    "scripts": 90,
+    "sources": 16
+  },
+  "excluded_directory_count": 1,
+  "excluded_file_count": 13,
+  "unsafe_filenames": [],
+  "symlink_members": [],
+  "case_collision_groups": [],
+  "privacy_findings": [],
+  "classified_false_positive_counts": {
+    "tex_control_sequence_false_positive": 134,
+    "tex_or_regex_and_newline_escapes": 158
+  },
+  "generic_interpreter_shebang_count": 1,
+  "limitations": [
+    "No edition TeX file content was read or scanned.",
+    "No scan, image, PDF, author-text meaning, mathematics, translation, or Volume II review was performed.",
+    "This is a timed live ancillary capture and filename advisory, not a checkpoint ZIP or full replay audit.",
+    "No active-file modification, package creation, upload, or old-audit rerun was performed.",
+    "The generic interpreter shebang is accepted and is not an environment-private path."
+  ]
+}

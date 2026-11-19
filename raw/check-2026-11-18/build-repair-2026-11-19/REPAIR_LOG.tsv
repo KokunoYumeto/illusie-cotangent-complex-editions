@@ -1,0 +1,27 @@
+file	line	build error (LuaLaTeX)	before	after	repair
+francais-corrige/08-volume-I-francais-corrige-par-gpt-5-6-sol.tex	8894	Undefined control sequence	\simeqH	\simeq H	control word run together with the next letter; a space added
+francais-corrige/08-volume-I-francais-corrige-par-gpt-5-6-sol.tex	8896	Undefined control sequence	\simeqH	\simeq H	control word run together with the next letter; a space added
+francais-corrige/08-volume-I-francais-corrige-par-gpt-5-6-sol.tex	10478	Undefined control sequence	\simeqE	\simeq E	control word run together with the next letter; a space added
+francais-corrige/08-volume-I-francais-corrige-par-gpt-5-6-sol.tex	15456	Undefined control sequence	\longrightarrowY	\longrightarrow Y	control word run together with the next letter; a space added
+francais-corrige/08-volume-I-francais-corrige-par-gpt-5-6-sol.tex	15466	Undefined control sequence	\longrightarrowY	\longrightarrow Y	control word run together with the next letter; a space added
+francais-corrige/08-volume-I-francais-corrige-par-gpt-5-6-sol.tex	16388	Undefined control sequence	\longrightarrowY	\longrightarrow Y	control word run together with the next letter; a space added
+francais-corrige/08-volume-I-francais-corrige-par-gpt-5-6-sol.tex	16533	Undefined control sequence	\longmapstoX	\longmapsto X	control word run together with the next letter; a space added
+francais-corrige/08-volume-I-francais-corrige-par-gpt-5-6-sol.tex	6690	Undefined control sequence (IllusiePthirtynineDisplay) and the errors after it		\providecommand{\IllusiePthirtynineDisplay}[2]{%   \par\vspace{2.4bp}\noindent   \makebox[0pt][l]{#1}%   \makebox[\dimexpr\linewidth-20bp\relax][c]{$\displaystyle #2$}%   \par\vspace{2.4bp}}	the display macro is defined inside an earlier page group and is out of scope at (2.3.8.1); the same definition given again before this use (providecommand)
+francais-corrige/08-volume-I-francais-corrige-par-gpt-5-6-sol.tex	37209			rights notice of 15 Nov 2026	the revised rights notice printed on a last page (notice only)
+francais-diplomatique/02-volume-I-francais-diplomatique.tex	8907	Undefined control sequence	\simeqH	\simeq H	control word run together with the next letter; a space added
+francais-diplomatique/02-volume-I-francais-diplomatique.tex	8909	Undefined control sequence	\simeqH	\simeq H	control word run together with the next letter; a space added
+francais-diplomatique/02-volume-I-francais-diplomatique.tex	15573	Undefined control sequence	\longrightarrowY	\longrightarrow Y	control word run together with the next letter; a space added
+francais-diplomatique/02-volume-I-francais-diplomatique.tex	15583	Undefined control sequence	\longrightarrowY	\longrightarrow Y	control word run together with the next letter; a space added
+francais-diplomatique/02-volume-I-francais-diplomatique.tex	16505	Undefined control sequence	\longrightarrowY	\longrightarrow Y	control word run together with the next letter; a space added
+francais-diplomatique/02-volume-I-francais-diplomatique.tex	16650	Undefined control sequence	\longmapstoX	\longmapsto X	control word run together with the next letter; a space added
+francais-diplomatique/02-volume-I-francais-diplomatique.tex	6704	Undefined control sequence (IllusiePthirtynineDisplay) and the errors after it		\providecommand{\IllusiePthirtynineDisplay}[2]{%   \par\vspace{2.4bp}\noindent   \makebox[0pt][l]{#1}%   \makebox[\dimexpr\linewidth-20bp\relax][c]{$\displaystyle #2$}%   \par\vspace{2.4bp}}	the display macro is defined inside an earlier page group and is out of scope at (2.3.8.1); the same definition given again before this use (providecommand)
+francais-diplomatique/02-volume-I-francais-diplomatique.tex	37346			rights notice of 15 Nov 2026	the revised rights notice printed on a last page (notice only)
+english/02-volume-I-english.tex	8817	Undefined control sequence	\simeqH	\simeq H	control word run together with the next letter; a space added
+english/02-volume-I-english.tex	8819	Undefined control sequence	\simeqH	\simeq H	control word run together with the next letter; a space added
+english/02-volume-I-english.tex	10396	Undefined control sequence	\simeqE	\simeq E	control word run together with the next letter; a space added
+english/02-volume-I-english.tex	15360	Undefined control sequence	\longrightarrowY	\longrightarrow Y	control word run together with the next letter; a space added
+english/02-volume-I-english.tex	15370	Undefined control sequence	\longrightarrowY	\longrightarrow Y	control word run together with the next letter; a space added
+english/02-volume-I-english.tex	16292	Undefined control sequence	\longrightarrowY	\longrightarrow Y	control word run together with the next letter; a space added
+english/02-volume-I-english.tex	16437	Undefined control sequence	\longmapstoX	\longmapsto X	control word run together with the next letter; a space added
+english/02-volume-I-english.tex	6619	Undefined control sequence (IllusiePthirtynineDisplay) and the errors after it		\providecommand{\IllusiePthirtynineDisplay}[2]{%   \par\vspace{2.4bp}\noindent   \makebox[0pt][l]{#1}%   \makebox[\dimexpr\linewidth-20bp\relax][c]{$\displaystyle #2$}%   \par\vspace{2.4bp}}	the display macro is defined inside an earlier page group and is out of scope at (2.3.8.1); the same definition given again before this use (providecommand)
+english/02-volume-I-english.tex	37062			rights notice of 15 Nov 2026	the revised rights notice printed on a last page (notice only)

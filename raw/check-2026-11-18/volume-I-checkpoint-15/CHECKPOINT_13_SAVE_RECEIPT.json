@@ -1,0 +1,17 @@
+{
+  "name": "ILLUSIE_I_CHECK_checkpoint_13.zip",
+  "save_success_recorded_utc": "2026-11-19 04:00:43 UTC",
+  "bytes": 149257513,
+  "sha256": "fe1cade8f00773892b6675d8052260d008940465fb48512046a70b8f49c62333",
+  "library_file_id": "libfile_fde3_f-0987a668970c81918b9e9d1d35d611f9_3de54532f60c8191850458563edee173",
+  "file_id": "file_000000007c9c82128faa07fdeecec47e",
+  "version": 0,
+  "helper_exit_code": 0,
+  "status": "succeeded",
+  "local_metadata_applied": true,
+  "checkpoint_due_utc": "2026-11-19 03:59:37 UTC",
+  "completed_printed_page": 167,
+  "completed_scan_page": 185,
+  "next_unbegun_printed_page_at_freeze": 168,
+  "retrospective": false
+}

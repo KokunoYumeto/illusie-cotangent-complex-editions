@@ -1,0 +1,232 @@
+2026-11-19 00:59:37 UTC
+continuation restored from checkpoint 09; earlier run begins below
+2026-11-18 12:33:03 UTC
+page cover done 2026-11-18 12:35:02 UTC
+page publisher series leaf (unnumbered) done 2026-11-18 12:35:57 UTC
+page I (title leaf; numeral not printed) done 2026-11-18 12:36:22 UTC
+page II (imprint leaf; numeral not printed) done 2026-11-18 12:36:58 UTC
+page III (dedication; numeral not printed) done 2026-11-18 12:37:52 UTC
+page IV (blank leaf; digitization insert in scan) done 2026-11-18 12:38:31 UTC
+page V (contents, first leaf) done 2026-11-18 12:40:46 UTC
+page VI (contents, second leaf) done 2026-11-18 12:41:46 UTC
+page VII (contents, third leaf) done 2026-11-18 12:43:38 UTC
+page VIII (blank) done 2026-11-18 12:43:52 UTC
+page IX done 2026-11-18 12:50:39 UTC
+page X done 2026-11-18 12:55:14 UTC
+page XI done 2026-11-18 12:57:52 UTC
+page XII done 2026-11-18 13:00:32 UTC
+page XIII done 2026-11-18 13:01:53 UTC
+page XIV (blank) done 2026-11-18 13:02:12 UTC
+page XV done 2026-11-18 13:03:32 UTC
+page unnumbered blank after XV done 2026-11-18 13:03:42 UTC
+page 1 done 2026-11-18 13:18:10 UTC
+page 2 done 2026-11-18 13:22:27 UTC
+page 3 done 2026-11-18 13:27:12 UTC
+page 4 done 2026-11-18 13:31:02 UTC
+checkpoint 01 save success recorded 2026-11-18 13:34:37 UTC; next hourly checkpoint due 2026-11-18 14:33:03 UTC
+page 5 done 2026-11-18 13:41:58 UTC
+page 6 done 2026-11-18 13:45:25 UTC
+page 7 done 2026-11-18 13:50:52 UTC
+page 7 cross-page correction recorded during page 8 reading 2026-11-18 13:55:56 UTC
+page 8 done 2026-11-18 13:57:04 UTC
+page 9 done 2026-11-18 14:04:29 UTC
+workspace access recovered 2026-11-18 14:10:26 UTC; current deliverables and supplied extracted inputs recovered from surviving task files; no new checkpoint created; temporary renders and toolchain lost; p10 edits had not executed.
+page 10 done 2026-11-18 14:10:46 UTC
+page 11 done 2026-11-18 14:20:10 UTC
+page 12 done 2026-11-18 14:21:58 UTC
+page 13 done 2026-11-18 14:24:17 UTC
+page 14 done 2026-11-18 14:27:20 UTC
+page 15 done 2026-11-18 14:30:24 UTC
+checkpoint 02 saved 2026-11-18 14:36:40 UTC; ILLUSIE_I_CHECK_checkpoint_02.zip; SHA-256 6be728181dbee8770922c7f78213e49a9cdecbdd69893826e1d8604a6d070b3a; 33 scan pages completed through printed page 15; 997 correction rows; page 16 not yet complete.
+page 16 done 2026-11-18 14:38:36 UTC
+page 17 done 2026-11-18 14:41:55 UTC
+page 18 done 2026-11-18 14:46:33 UTC
+page 19 done 2026-11-18 14:53:24 UTC
+page 20 done 2026-11-18 14:59:19 UTC
+page 21 done 2026-11-18 15:02:33 UTC
+page 22 done 2026-11-18 15:07:19 UTC
+page 23 done 2026-11-18 15:14:18 UTC
+page 24 done 2026-11-18 15:16:38 UTC
+page 25 done 2026-11-18 15:18:55 UTC
+page 26 done 2026-11-18 15:22:26 UTC
+page 27 done 2026-11-18 15:25:32 UTC
+page 27 completion at 2026-11-18 15:25:32 UTC is VOID: edit application was incomplete; correction logged 2026-11-18 15:26:15 UTC
+page 27 done 2026-11-18 15:26:17 UTC
+page 28 done 2026-11-18 15:33:02 UTC
+2026-11-18 15:35:44 UTC checkpoint 03 durable save confirmed: ILLUSIE_I_CHECK_checkpoint_03.zip; bytes=35032631; sha256=d2ba29936dbd6072c0581864724f28b2eef83e1769ab0b85bc14a6bc481f4639; version=0; library_file_id=libfile_fde3_f-c5799c3db2e081919f2a2065d14f33fb_c6789dc4b4d481919ad633aabe6d84d0
+page 29 done 2026-11-18 15:36:56 UTC
+page 30 done 2026-11-18 15:39:28 UTC
+page 31 done 2026-11-18 15:42:46 UTC
+page 32 done 2026-11-18 15:44:32 UTC
+page 33 done 2026-11-18 15:50:15 UTC
+page 34 done 2026-11-18 15:53:13 UTC
+page 35 done 2026-11-18 15:54:49 UTC
+page 36 done 2026-11-18 15:57:04 UTC
+page 37 done 2026-11-18 16:02:26 UTC
+page 38 done 2026-11-18 16:04:29 UTC
+page 39 done 2026-11-18 16:06:18 UTC
+page 40 done 2026-11-18 16:08:00 UTC
+page 41 done 2026-11-18 16:10:52 UTC
+page 42 done 2026-11-18 16:16:59 UTC
+page 43 done 2026-11-18 16:19:26 UTC
+page 44 done 2026-11-18 16:22:21 UTC
+page 45 done 2026-11-18 16:24:46 UTC
+page 46 done 2026-11-18 16:27:25 UTC
+page 47 done 2026-11-18 16:33:43 UTC
+2026-11-18 16:35:15 UTC checkpoint 04 durable save success recorded: ILLUSIE_I_CHECK_checkpoint_04.zip; bytes=45635366; sha256=5ed4a9a47e823ac27f034db26116911d405ac283ea0ba916fce15e483627f2af; library_file_id=libfile_fde3_f-3746694f33d881919df2e40cc22dd4d9_c6789dc4b4d481919ad633aabe6d84d0; version=0. Immutable archive unchanged.
+page 48 done 2026-11-18 16:38:04 UTC
+page 49 done 2026-11-18 16:40:10 UTC
+page 50 done 2026-11-18 16:42:43 UTC
+page 51 done 2026-11-18 16:44:59 UTC
+page 52 done 2026-11-18 16:52:18 UTC
+page 53 done 2026-11-18 16:55:11 UTC
+page 54 done 2026-11-18 16:58:47 UTC
+page 55 done 2026-11-18 17:02:52 UTC
+page 56 done 2026-11-18 17:10:04 UTC
+page 57 done 2026-11-18 17:12:15 UTC
+page 58 done 2026-11-18 17:16:18 UTC
+page 59 done 2026-11-18 17:18:58 UTC
+page 60 done 2026-11-18 17:26:48 UTC
+page 61 done 2026-11-18 17:29:45 UTC
+page 62 done 2026-11-18 17:32:32 UTC
+2026-11-18 17:35:21 UTC checkpoint_05 durable save success; ILLUSIE_I_CHECK_checkpoint_05.zip; 52874293 bytes; SHA256 1c6096212e7f1735c40e8a1deb1aeaf70d7fa657f452c26ff3964e69bb7845f9; library_file_id=libfile_fde3_f-e80649697e388191bc1dac1226259697_c6789dc4b4d481919ad633aabe6d84d0; version=0. Immutable archive unchanged after save.
+page 63 done 2026-11-18 17:38:36 UTC
+page 64 done 2026-11-18 17:46:45 UTC
+page 65 done 2026-11-18 17:49:48 UTC
+page 66 done 2026-11-18 17:53:28 UTC
+page 67 done 2026-11-18 17:58:52 UTC
+page 68 done 2026-11-18 18:06:31 UTC
+page 69 done 2026-11-18 18:10:14 UTC
+page 70 done 2026-11-18 18:12:28 UTC
+page 71 done 2026-11-18 18:15:00 UTC
+page 72 done 2026-11-18 18:21:36 UTC
+page 73 done 2026-11-18 18:24:14 UTC
+page 74 done 2026-11-18 18:27:40 UTC
+page 75 done 2026-11-18 18:31:02 UTC
+page 76 done 2026-11-18 18:39:17 UTC
+checkpoint 06 save confirmation observed 2026-11-18 18:39:33 UTC; receipt and archive hashes verified 2026-11-18 18:40:32 UTC; ILLUSIE_I_CHECK_checkpoint_06.zip; 59892915 bytes; sha256 da9872a585a3177fcfe82388f43e5de384c3759ed662b3a9f376a90a04ea6b91; version 0; packaged after 18:33:03 UTC due time following context transition; I frozen through printed page 75 / scan 93; immutable archive unchanged
+page 77 done 2026-11-18 18:43:57 UTC
+page 78 done 2026-11-18 18:46:06 UTC
+page 79 done 2026-11-18 18:48:09 UTC
+page 80 done 2026-11-18 18:54:44 UTC
+page 81 done 2026-11-18 18:57:26 UTC
+page 82 done 2026-11-18 19:04:55 UTC
+page 83 done 2026-11-18 19:08:55 UTC
+page 84 done 2026-11-18 19:16:42 UTC
+page 85 done 2026-11-18 19:21:42 UTC
+page 86 done 2026-11-18 19:25:52 UTC
+page 87 done 2026-11-18 19:30:36 UTC
+page 88 done 2026-11-18 19:38:07 UTC
+2026-11-18 19:40:39 UTC checkpoint 07 upload success observed by 2026-11-18 19:38:22 UTC; receipt and unchanged archive SHA/size/library-ID/version xattrs verified now; ILLUSIE_I_CHECK_checkpoint_07.zip; 66113842 bytes; SHA-256 2439256fbea3065d697f2895c1863d63061f573e903176bbd36651ddb103f81c; version 0; libfile_fde3_f-b399769b0fcc81918e187f7234c51d27_c6789dc4b4d481919ad633aabe6d84d0; file_000000006bb48212a597b5f264d6ae67. Full immutable checkpoint, created I 19:36:18 UTC / II 19:36:21 UTC; independent verification 19:36:56 UTC.
+page 89 done 2026-11-18 19:43:34 UTC
+page 90 done 2026-11-18 19:47:41 UTC
+page 91 done 2026-11-18 19:57:06 UTC
+page 92 done 2026-11-18 20:04:36 UTC
+page 93 done 2026-11-18 20:07:32 UTC
+page 94 done 2026-11-18 20:10:45 UTC
+page 95 done 2026-11-18 20:13:51 UTC
+page 96 done 2026-11-18 20:18:48 UTC
+page 97 done 2026-11-18 20:27:25 UTC
+page 98 done 2026-11-18 20:32:59 UTC
+2026-11-18 20:36:10 UTC checkpoint08 save success observed by 2026-11-18 20:35:15 UTC; post-upload agent verification 20:35:16 UTC; root independently verified archive bytes and exact Library/version xattrs now. ILLUSIE_I_CHECK_checkpoint_08.zip; bytes=71004779; sha256=dda01d4cf5c1ab2b1aa56472a935eedf72c174d6fc4dd81808047bd5f4149599; library_file_id=libfile_fde3_f-473b4334e02c8191b8a45eb959cace77_c6789dc4b4d481919ad633aabe6d84d0; file_id=file_00000000b81881f587d469edd338dfdc; version=0. Immutable full archive; I frozen through p98/scan116, 4332 rows; II not begun. No archive mutation.
+page 99 done 2026-11-18 20:40:02 UTC
+page 100 done 2026-11-18 20:48:47 UTC
+2026-11-18 20:49:02 UTC — Refreshed stale CHECK_RECORD summary paragraph (previously p80/scan98) and notation-table scope (previously p96) to actual sequential p100/scan118 completion; per-page records/timestamps unchanged. README and mechanical totals refreshed.
+page 101 done 2026-11-18 20:52:28 UTC
+page 102 done 2026-11-18 20:56:08 UTC
+page 103 done 2026-11-18 21:03:47 UTC
+page 104 done 2026-11-18 21:12:14 UTC
+page 105 done 2026-11-18 21:16:50 UTC
+page 106 done 2026-11-18 21:23:44 UTC
+page 107 done 2026-11-18 21:28:28 UTC
+continuation start 2026-11-19 00:59:37 UTC; next printed page 108; first new checkpoint 10 due after 45 minutes
+page 108 done 2026-11-19 01:02:56 UTC
+page 109 done 2026-11-19 01:07:29 UTC
+infrastructure update 2026-11-19 01:09:02 UTC; TOOLCHAIN_REPRODUCIBILITY.md appended with verified private TeX Live 2025 restoration and content-free probe results; scripts/update_totals.py now accepts terminology as an allowed correction kind; totals script not run; no edition build performed.
+page 110 done 2026-11-19 01:10:02 UTC
+metadata references repaired 2026-11-19 01:12:32 UTC: CORRECTIONS.tsv evidence-only cells in rows 570, 583 (Evidence/I_p004_postcat.png -> evidence/I_p004_postcat.png) and 4897, 4908, 4919 (exact-second.png -> evidence/I_p110_exact-second.png); all other cells including old/new/confidence unchanged; no source/page-text change or visual recheck; installed REPLAY_AUDIT_THROUGH_P110.md; preserved REPLAY_CHECK.md; no ZIP created.
+page 111 done 2026-11-19 01:13:48 UTC
+page 112 done 2026-11-19 01:17:07 UTC
+page 113 done 2026-11-19 01:20:31 UTC
+page 114 done 2026-11-19 01:22:43 UTC
+page 115 done 2026-11-19 01:24:28 UTC
+page 116 done 2026-11-19 01:28:00 UTC
+page 117 done 2026-11-19 01:30:23 UTC
+page 118 done 2026-11-19 01:31:51 UTC
+page 119 done 2026-11-19 01:34:06 UTC
+page 120 done 2026-11-19 01:37:58 UTC
+page 121 done 2026-11-19 01:40:18 UTC
+page 122 done 2026-11-19 01:42:12 UTC
+page 123 done 2026-11-19 01:46:28 UTC
+page 124 done 2026-11-19 01:48:32 UTC
+page 125 done 2026-11-19 01:50:48 UTC
+page 126 done 2026-11-19 01:54:30 UTC
+page 127 done 2026-11-19 01:56:53 UTC
+page 128 done 2026-11-19 01:59:22 UTC
+page 129 done 2026-11-19 02:02:36 UTC
+page 130 done 2026-11-19 02:05:06 UTC
+page 131 done 2026-11-19 02:06:52 UTC
+page 132 done 2026-11-19 02:09:13 UTC
+page 133 done 2026-11-19 02:13:11 UTC
+page 134 done 2026-11-19 02:15:34 UTC
+page 135 done 2026-11-19 02:17:57 UTC
+page 136 done 2026-11-19 02:22:25 UTC
+page 137 done 2026-11-19 02:25:08 UTC
+page 138 done 2026-11-19 02:27:30 UTC
+page 139 done 2026-11-19 02:32:34 UTC
+page 140 done 2026-11-19 02:36:04 UTC
+page 141 done 2026-11-19 02:40:21 UTC
+page 142 done 2026-11-19 02:42:03 UTC
+page 143 done 2026-11-19 02:43:35 UTC
+page 144 done 2026-11-19 02:48:20 UTC
+page 145 done 2026-11-19 02:50:12 UTC
+page 146 done 2026-11-19 02:52:42 UTC
+page 147 done 2026-11-19 02:54:34 UTC
+page 148 done 2026-11-19 02:58:15 UTC
+page 149 done 2026-11-19 03:00:25 UTC
+page 150 done 2026-11-19 03:02:05 UTC
+page 151 done 2026-11-19 03:04:40 UTC
+page 152 done 2026-11-19 03:07:11 UTC
+page 153 done 2026-11-19 03:10:45 UTC
+page 154 done 2026-11-19 03:12:48 UTC
+2026-11-19 03:13:18 UTC retrospective successful-save receipt recording, not the original upload time; ILLUSIE_I_CHECK_checkpoint_10.zip; bytes=89911815; sha256=4aafbfed32ab988e770625f0ffa52007c0d8af4acfad34c6d549ecceafa91d1d; library_file_id=libfile_fde3_f-85d9c0d7dd4c8191870a13b4beec172a_3de54532f60c8191850458563edee173; file_id=file_000000000d6881f59471dffaf7fc6951; version=0; checkpoint10 helper exit0/succeeded/local_metadata_applied verified; checkpoint11 prior session confirmed success plus locally reverified Library identity and archive bytes; no checkpoint09 receipt inferred.
+2026-11-19 03:13:18 UTC retrospective successful-save receipt recording, not the original upload time; ILLUSIE_I_CHECK_checkpoint_11.zip; bytes=109190224; sha256=6ada25023d615fe6fed2537ade08b17d9437c26e63da804520f87f296a5ef62e; library_file_id=libfile_fde3_f-3f5c6bc1376481918d0005be30bcc8bd_3de54532f60c8191850458563edee173; file_id=file_000000002b7882128ae13b0f6ef6393e; version=0; checkpoint10 helper exit0/succeeded/local_metadata_applied verified; checkpoint11 prior session confirmed success plus locally reverified Library identity and archive bytes; no checkpoint09 receipt inferred.
+2026-11-19 03:14:31 UTC checkpoint12 freeze preparation: sequential completion through printed154/scan172; printed155 rendered at400dpi, both complete halves and all three source regions read, but enlarged decisions, edits and mathematical checks not complete; page155 excluded from completed scope.
+2026-11-19 03:15:12 UTC checkpoint12 successful save confirmed; helper exit0; per-item status succeeded; local_metadata_applied=true; archive=ILLUSIE_I_CHECK_checkpoint_12.zip; bytes=131079088; sha256=7708f54cf2d95121f5c0ece5c48c97fbc1d89625a25a4a54306ac6997ec50676; library_file_id=libfile_fde3_f-e815a213df988191b1b1b2ba47071818_3de54532f60c8191850458563edee173; file_id=file_00000000418c81f6a27963880c63c2f3; version=0. This receipt postdates the immutable checkpoint and will enter the next scheduled archive.
+page 155 done 2026-11-19 03:20:58 UTC
+page 156 done 2026-11-19 03:22:39 UTC
+page 157 done 2026-11-19 03:24:48 UTC
+page 158 done 2026-11-19 03:29:06 UTC
+page 159 done 2026-11-19 03:31:08 UTC
+page 160 done 2026-11-19 03:33:57 UTC
+page 161 done 2026-11-19 03:39:07 UTC
+page 162 done 2026-11-19 03:42:04 UTC
+page 163 done 2026-11-19 03:44:48 UTC
+page 164 done 2026-11-19 03:48:33 UTC
+page 165 done 2026-11-19 03:54:25 UTC
+page 166 done 2026-11-19 03:56:33 UTC
+page 167 done 2026-11-19 03:59:25 UTC
+checkpoint 13 durable save confirmed 2026-11-19 04:00:43 UTC; name ILLUSIE_I_CHECK_checkpoint_13.zip; bytes 149257513; SHA-256 fe1cade8f00773892b6675d8052260d008940465fb48512046a70b8f49c62333; complete through printed167 / scan185; first reading only; next checkpoint due2026-11-19 04:44:37 UTC
+page 168 done 2026-11-19 04:07:12 UTC
+page 169 done 2026-11-19 04:10:10 UTC
+page 170 done 2026-11-19 04:13:45 UTC
+page 171 done 2026-11-19 04:19:35 UTC
+page 172 done 2026-11-19 04:22:22 UTC
+page 173 done 2026-11-19 04:25:02 UTC
+page 174 done 2026-11-19 04:28:09 UTC
+page 175 done 2026-11-19 04:32:58 UTC
+page 176 done 2026-11-19 04:37:42 UTC
+page 177 done 2026-11-19 04:40:17 UTC
+2026-11-19 04:44:26 UTC checkpoint14 scope prepared: complete through177/scan195; p178 in progress, ten detail crops inspected, no edits or completion yet;6624 corrections,19 questions.
+2026-11-19 04:45:49 UTC checkpoint14 saved successfully; complete177,178inprogress,6624rows at freeze;161977766bytes;SHA256 206682f9df1d8ffb829866a3655cf60f26c984f2a59f123e86a2338b0ae9f4cc; receipt recorded after successful helper exit0.
+page 178 done 2026-11-19 04:45:49 UTC
+page 179 done 2026-11-19 04:48:21 UTC
+page 180 done 2026-11-19 04:51:14 UTC
+page 181 done 2026-11-19 04:56:24 UTC
+page 182 done 2026-11-19 05:00:25 UTC
+page 183 done 2026-11-19 05:07:26 UTC
+page 184 done 2026-11-19 05:10:16 UTC
+page 185 done 2026-11-19 05:13:17 UTC
+page 186 done 2026-11-19 05:18:56 UTC
+page 187 done 2026-11-19 05:22:22 UTC
+page 188 done 2026-11-19 05:25:29 UTC

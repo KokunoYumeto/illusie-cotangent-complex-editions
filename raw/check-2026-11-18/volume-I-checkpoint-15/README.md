@@ -1,0 +1,12 @@
+# Illusie I audit work in progress
+
+This is an unfinished audit, not a certified edition. See CHECK_RECORD.md and progress.log for the exact completed scope. Sources initially preserve all supplied file names, macros, credits and notices. CORRECTIONS.tsv records actual edits; EXISTING_CORRECTIONS.tsv records verdicts on differences already present. CHECK_EVENTS.tsv records only mathematical check events that actually occur. pdf/ is empty until the requested builds have been performed.
+
+
+## Current checkpoint scope
+
+The sequential first reading is recorded through scan page 206: all front matter and printed pages 1–188. Printed page 189 is in progress: all three source regions have been read, but both complete authority-image halves and the detail audit remain pending; no page-189 edits or completion are claimed. The remaining scan pages and complete author-errata audit are not finished; the author errata for pp. 11, 60 and 87 have been applied, and the inspected first errata-page portion next lists p. 219. The final second visual reading, recurrent-error searches, final terminology review, three edition builds, output-PDF checks and research notes remain pending. READING_QUESTIONS.tsv contains nineteen explicit questions, including faint/clipped scan signs, totalization conventions and hypotheses, tensor descent, the fixed-bound shifted-resolution repair, the faded sign exercise on p. 113, an exact EGA locator on p. 117, duplicated numbering, the p. 144–146 topos-scope issue resolved on the first reading, faint punctuation/signs on pp. 150 and 154, and clipped terminal punctuation on p. 172. The protected imprint discrepancy is stated in CHECK_RECORD.md.
+
+The continuation began at 2026-11-19 00:59:37 UTC from checkpoint 09. The sequential page records distinguish visual reading from actual mathematical checks. Frozen mechanical replay reports identify their own capture times; they do not certify later changes. The prepared LuaLaTeX toolchain has passed an isolated infrastructure probe, but no edition build is claimed. Volume II has not begun.
+
+EVIDENCE_INDEX.md identifies only crops that document discussed issues. REPLAY_CHECK.md describes mechanical source/ledger consistency checks, which do not substitute for visual verification. scripts/update_totals.py computes edit-row totals without inferring review completion. Complete supplied source assets remain in their original tree layout. Build instructions and environment prerequisites are described in TOOLCHAIN_REPRODUCIBILITY.md; no edition-build success is claimed.

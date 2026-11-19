@@ -1,0 +1,337 @@
+{
+  "title": "Checkpoint15 bounded ancillary privacy and capacity advisory",
+  "capture_start_utc": "2026-11-19 05:20:42 UTC",
+  "capture_end_utc": "2026-11-19 05:20:42 UTC",
+  "checkpoint15_due_utc": "2026-11-19 05:29:37 UTC",
+  "coverage": "Only explicitly selected infrastructure-only root reports/receipts and five generic packaging, replay, restore, or build-diagnostic support files were read as raw privacy-pattern bytes. This is not full-deliverable privacy certification.",
+  "strict_content_exclusions": [
+    "every sources/ file",
+    "all edition TeX",
+    "all images and PDFs",
+    "scripts/history/",
+    "CORRECTIONS.tsv",
+    "EXISTING_CORRECTIONS.tsv",
+    "READING_QUESTIONS.tsv",
+    "CHECK_RECORD.md",
+    "NOTES.md",
+    "README.md",
+    "EVIDENCE_INDEX.md",
+    "PDF_CHECK.md",
+    "CHECK_EVENTS.tsv",
+    "all unselected files"
+  ],
+  "selected_ancillary_file_count": 38,
+  "stable_ancillary_files_scanned": 38,
+  "stable_ancillary_bytes_scanned": 209961,
+  "changed_files_skipped": [],
+  "selected_file_hashes": [
+    {
+      "file": "ARCHIVE_INTEGRITY.md",
+      "bytes": 1514,
+      "sha256_before": "5c870227f8adef7279ecea8e87f1bd1d31329c0088e08919d7609e67e810ed06",
+      "sha256_after": "5c870227f8adef7279ecea8e87f1bd1d31329c0088e08919d7609e67e810ed06",
+      "stable": true
+    },
+    {
+      "file": "CHECKPOINTS.tsv",
+      "bytes": 3369,
+      "sha256_before": "f0341db4f1bc24262ddbc81594c42605f27676a94c6e5ba766cbd01ff51efe71",
+      "sha256_after": "f0341db4f1bc24262ddbc81594c42605f27676a94c6e5ba766cbd01ff51efe71",
+      "stable": true
+    },
+    {
+      "file": "CHECKPOINT_12_INDEPENDENT_INTEGRITY.md",
+      "bytes": 3813,
+      "sha256_before": "535b806eebb896c2f28ac3474842a86085a9bc1873ecfc3e65a481e1d6bed3ed",
+      "sha256_after": "535b806eebb896c2f28ac3474842a86085a9bc1873ecfc3e65a481e1d6bed3ed",
+      "stable": true
+    },
+    {
+      "file": "CHECKPOINT_12_SAVE_RECEIPT.json",
+      "bytes": 644,
+      "sha256_before": "3ad0f562d3027672ce060256ebd8b7932c7d50bcc466478c518cc5ea975e9146",
+      "sha256_after": "3ad0f562d3027672ce060256ebd8b7932c7d50bcc466478c518cc5ea975e9146",
+      "stable": true
+    },
+    {
+      "file": "CHECKPOINT_13_INDEPENDENT_INTEGRITY.md",
+      "bytes": 4296,
+      "sha256_before": "b2624b0f6ff0b835bf5955edf44388366155f8bb14466b0e9e07b26a6a178603",
+      "sha256_after": "b2624b0f6ff0b835bf5955edf44388366155f8bb14466b0e9e07b26a6a178603",
+      "stable": true
+    },
+    {
+      "file": "CHECKPOINT_13_SAVE_RECEIPT.json",
+      "bytes": 655,
+      "sha256_before": "52c3f71f05b46ab5c7ce2578b07330685ed641370adc3dbce86033dadea16fec",
+      "sha256_after": "52c3f71f05b46ab5c7ce2578b07330685ed641370adc3dbce86033dadea16fec",
+      "stable": true
+    },
+    {
+      "file": "CHECKPOINT_14_INDEPENDENT_INTEGRITY.md",
+      "bytes": 10459,
+      "sha256_before": "0bfb35a08b7aaee3e8a3e857847c1b066014942b4beee501e46b90cf13ab9f96",
+      "sha256_after": "0bfb35a08b7aaee3e8a3e857847c1b066014942b4beee501e46b90cf13ab9f96",
+      "stable": true
+    },
+    {
+      "file": "CHECKPOINT_14_MECHANICAL_PREPACK.md",
+      "bytes": 3186,
+      "sha256_before": "1f656fd52f038ecc6e0a69e7f3507b4afb61cfeea211ef2b9ba38fdc2c2b6d91",
+      "sha256_after": "1f656fd52f038ecc6e0a69e7f3507b4afb61cfeea211ef2b9ba38fdc2c2b6d91",
+      "stable": true
+    },
+    {
+      "file": "CHECKPOINT_14_SAVE_RECEIPT.json",
+      "bytes": 691,
+      "sha256_before": "ca97ece80a9360a51cdc87815e8a289b6bfe5a10473403c594504043b1e9e9d5",
+      "sha256_after": "ca97ece80a9360a51cdc87815e8a289b6bfe5a10473403c594504043b1e9e9d5",
+      "stable": true
+    },
+    {
+      "file": "CHECKPOINT_14_TIMING_SCOPE_PREFLIGHT.md",
+      "bytes": 5148,
+      "sha256_before": "9035eecf678f6cc39c4d11c7893bb25e289ba52c173e7324d009a830485e6d0e",
+      "sha256_after": "9035eecf678f6cc39c4d11c7893bb25e289ba52c173e7324d009a830485e6d0e",
+      "stable": true
+    },
+    {
+      "file": "CHECKPOINT_15_TIMING_SCOPE_CAPACITY.md",
+      "bytes": 6442,
+      "sha256_before": "6898bfa2ce179704c35fe6db7bcc48e4881646afeba0bbb678c03126b4991e68",
+      "sha256_after": "6898bfa2ce179704c35fe6db7bcc48e4881646afeba0bbb678c03126b4991e68",
+      "stable": true
+    },
+    {
+      "file": "CHECKPOINT_RECEIPTS_RETROSPECTIVE_EVIDENCE.md",
+      "bytes": 3091,
+      "sha256_before": "181b49ac929bd6c3a8c8acf4affcec2be3a4ec405f5b13e4fab21d84831185a1",
+      "sha256_after": "181b49ac929bd6c3a8c8acf4affcec2be3a4ec405f5b13e4fab21d84831185a1",
+      "stable": true
+    },
+    {
+      "file": "EVIDENCE_REFERENCE_METADATA_REPAIRS.md",
+      "bytes": 1754,
+      "sha256_before": "b0b6adf7b065478d5385c25b5c5a2e81a8cba08e13d7a8a4c499611bce99531e",
+      "sha256_after": "b0b6adf7b065478d5385c25b5c5a2e81a8cba08e13d7a8a4c499611bce99531e",
+      "stable": true
+    },
+    {
+      "file": "INFRASTRUCTURE_CHANGES.md",
+      "bytes": 2287,
+      "sha256_before": "35f15022b00046b1f41a4bb054b53464d9e30a6ac02ba215feac2184c42ae9e1",
+      "sha256_after": "35f15022b00046b1f41a4bb054b53464d9e30a6ac02ba215feac2184c42ae9e1",
+      "stable": true
+    },
+    {
+      "file": "REPLAY_AUDIT_CHECKPOINT_11_THROUGH_P138.md",
+      "bytes": 5768,
+      "sha256_before": "ca2c5fc520c1559b15865f3571e300d5b2584b97943e182ec9504fc9d930ee62",
+      "sha256_after": "ca2c5fc520c1559b15865f3571e300d5b2584b97943e182ec9504fc9d930ee62",
+      "stable": true
+    },
+    {
+      "file": "REPLAY_AUDIT_THROUGH_P110.md",
+      "bytes": 4684,
+      "sha256_before": "876a47c8868157a05b6764008af093f764440804a289c2000138507b2a33a078",
+      "sha256_after": "876a47c8868157a05b6764008af093f764440804a289c2000138507b2a33a078",
+      "stable": true
+    },
+    {
+      "file": "REPLAY_AUDIT_THROUGH_P112.md",
+      "bytes": 4415,
+      "sha256_before": "bd6fb6302187f166dc6914bbc2a1145b05fab52dc6a41497d7d1b17645d7ff5b",
+      "sha256_after": "bd6fb6302187f166dc6914bbc2a1145b05fab52dc6a41497d7d1b17645d7ff5b",
+      "stable": true
+    },
+    {
+      "file": "REPLAY_AUDIT_THROUGH_P119.md",
+      "bytes": 5590,
+      "sha256_before": "8e289569f90d89fd678349135c36fb8435d41677831f9a7ba089edd2f55e5873",
+      "sha256_after": "8e289569f90d89fd678349135c36fb8435d41677831f9a7ba089edd2f55e5873",
+      "stable": true
+    },
+    {
+      "file": "REPLAY_AUDIT_THROUGH_P122.md",
+      "bytes": 4213,
+      "sha256_before": "cf116490b9dd4cc2b341b0d1afaf184bf028403e8d171dfc5b3c1457caf75d9f",
+      "sha256_after": "cf116490b9dd4cc2b341b0d1afaf184bf028403e8d171dfc5b3c1457caf75d9f",
+      "stable": true
+    },
+    {
+      "file": "REPLAY_AUDIT_THROUGH_P128.md",
+      "bytes": 5723,
+      "sha256_before": "871e84edb80b1cac011d2816fbf5fbea804b97be87cb74766eeebf4c9aee2983",
+      "sha256_after": "871e84edb80b1cac011d2816fbf5fbea804b97be87cb74766eeebf4c9aee2983",
+      "stable": true
+    },
+    {
+      "file": "REPLAY_AUDIT_THROUGH_P135.md",
+      "bytes": 7401,
+      "sha256_before": "0bd89db993e02ca11fe113de5df662b82910a43502550ef31693c6d305cfd41b",
+      "sha256_after": "0bd89db993e02ca11fe113de5df662b82910a43502550ef31693c6d305cfd41b",
+      "stable": true
+    },
+    {
+      "file": "REPLAY_AUDIT_THROUGH_P140.md",
+      "bytes": 5338,
+      "sha256_before": "ce909ac375b76260f9846308caa4b0b33abdd4002924a6047529d443a6f42f15",
+      "sha256_after": "ce909ac375b76260f9846308caa4b0b33abdd4002924a6047529d443a6f42f15",
+      "stable": true
+    },
+    {
+      "file": "REPLAY_AUDIT_THROUGH_P148.md",
+      "bytes": 5413,
+      "sha256_before": "770477cf06419df88fe5fcab960cddbc5e58db715186f51d8f961267c4794737",
+      "sha256_after": "770477cf06419df88fe5fcab960cddbc5e58db715186f51d8f961267c4794737",
+      "stable": true
+    },
+    {
+      "file": "REPLAY_AUDIT_THROUGH_P154.md",
+      "bytes": 7007,
+      "sha256_before": "f4335bf600a321602d4512a60e1c0cf0c3a74e91d521ee3fca44d6f90d9620b7",
+      "sha256_after": "f4335bf600a321602d4512a60e1c0cf0c3a74e91d521ee3fca44d6f90d9620b7",
+      "stable": true
+    },
+    {
+      "file": "REPLAY_AUDIT_THROUGH_P157.md",
+      "bytes": 5664,
+      "sha256_before": "4b812ac004979526d4e5c8f7be3934e6c9b2f2da89e6966108a08750cbaf8ffe",
+      "sha256_after": "4b812ac004979526d4e5c8f7be3934e6c9b2f2da89e6966108a08750cbaf8ffe",
+      "stable": true
+    },
+    {
+      "file": "REPLAY_AUDIT_THROUGH_P163.md",
+      "bytes": 7569,
+      "sha256_before": "ee2f99868e6183707f17e36d7b95eb69c0f84377564ab8edd046a82806b5ed05",
+      "sha256_after": "ee2f99868e6183707f17e36d7b95eb69c0f84377564ab8edd046a82806b5ed05",
+      "stable": true
+    },
+    {
+      "file": "REPLAY_AUDIT_THROUGH_P167.md",
+      "bytes": 6668,
+      "sha256_before": "37390d6562d66779b1e38f5c49a13e2d8c8d0c600357e0c705347d7fe0e2185d",
+      "sha256_after": "37390d6562d66779b1e38f5c49a13e2d8c8d0c600357e0c705347d7fe0e2185d",
+      "stable": true
+    },
+    {
+      "file": "REPLAY_AUDIT_THROUGH_P169.md",
+      "bytes": 6930,
+      "sha256_before": "2a7ce67b85d3fdf50aa18af49e12f15fa69c4bc260fcee82b5970bb8d1169eab",
+      "sha256_after": "2a7ce67b85d3fdf50aa18af49e12f15fa69c4bc260fcee82b5970bb8d1169eab",
+      "stable": true
+    },
+    {
+      "file": "REPLAY_AUDIT_THROUGH_P173.md",
+      "bytes": 8699,
+      "sha256_before": "6a8ef90ba4b23a191e30f9e35cb481fbc0221f2cf783b5dad691159478957e8c",
+      "sha256_after": "6a8ef90ba4b23a191e30f9e35cb481fbc0221f2cf783b5dad691159478957e8c",
+      "stable": true
+    },
+    {
+      "file": "REPLAY_AUDIT_THROUGH_P176.md",
+      "bytes": 8210,
+      "sha256_before": "c2158a7c8aadb27db66fe275201e8cbce3d04ad5068f36667e30e05b095b13b2",
+      "sha256_after": "c2158a7c8aadb27db66fe275201e8cbce3d04ad5068f36667e30e05b095b13b2",
+      "stable": true
+    },
+    {
+      "file": "REPLAY_AUDIT_THROUGH_P182.md",
+      "bytes": 9196,
+      "sha256_before": "7d06afe71f4611edc45df667b11f2e9ec695d8aab019f33596edc5a7b601a053",
+      "sha256_after": "7d06afe71f4611edc45df667b11f2e9ec695d8aab019f33596edc5a7b601a053",
+      "stable": true
+    },
+    {
+      "file": "TOOLCHAIN_REPRODUCIBILITY.md",
+      "bytes": 11292,
+      "sha256_before": "01e35570124f4812baec247add04627072f9127e568b1308ae2b183fa544d7a3",
+      "sha256_after": "01e35570124f4812baec247add04627072f9127e568b1308ae2b183fa544d7a3",
+      "stable": true
+    },
+    {
+      "file": "checkpoint15_ancillary_privacy.json",
+      "bytes": 1634,
+      "sha256_before": "3ad839189af730b70f911e79d289130c885a6dc03102457238c1e42c54efa0e2",
+      "sha256_after": "3ad839189af730b70f911e79d289130c885a6dc03102457238c1e42c54efa0e2",
+      "stable": true
+    },
+    {
+      "file": "scripts/PACKAGING.md",
+      "bytes": 5712,
+      "sha256_before": "2b42906f7a8d63dc573f202833da51fbec9f7804e2d095839bd3662db79a5c6f",
+      "sha256_after": "2b42906f7a8d63dc573f202833da51fbec9f7804e2d095839bd3662db79a5c6f",
+      "stable": true
+    },
+    {
+      "file": "scripts/extract_build_diagnostics.py",
+      "bytes": 9905,
+      "sha256_before": "8ce86a59daf9c741c6f22932f31c9b52d5c1073c1a4548391e9006763789b441",
+      "sha256_after": "8ce86a59daf9c741c6f22932f31c9b52d5c1073c1a4548391e9006763789b441",
+      "stable": true
+    },
+    {
+      "file": "scripts/infrastructure_restore.py",
+      "bytes": 7027,
+      "sha256_before": "a27618e3f01c2ba3f37bf8f094f1cfb5e85b59eed0a957c3f0ef922b909befb4",
+      "sha256_after": "a27618e3f01c2ba3f37bf8f094f1cfb5e85b59eed0a957c3f0ef922b909befb4",
+      "stable": true
+    },
+    {
+      "file": "scripts/package_checkpoint.py",
+      "bytes": 17653,
+      "sha256_before": "c813c28161ec5526145a8c367250c36f9a26ef06b1f5e0bbb1caa434b0e63568",
+      "sha256_after": "c813c28161ec5526145a8c367250c36f9a26ef06b1f5e0bbb1caa434b0e63568",
+      "stable": true
+    },
+    {
+      "file": "scripts/replay_corrections.py",
+      "bytes": 901,
+      "sha256_before": "a918ca20865b47522d2719f1ec4c6eeccdc063071c1fbc810e8f26e3f474e539",
+      "sha256_after": "a918ca20865b47522d2719f1ec4c6eeccdc063071c1fbc810e8f26e3f474e539",
+      "stable": true
+    }
+  ],
+  "privacy_pattern_candidates": [],
+  "generic_interpreter_shebangs_accepted": [
+    {
+      "file": "scripts/infrastructure_restore.py",
+      "line": 1,
+      "classification": "generic_interpreter_syntax_accepted"
+    }
+  ],
+  "metadata_only_capacity": {
+    "files_seen_after_runtime_input_directory_pruning": 1932,
+    "raw_bytes_seen": 207894956,
+    "candidate_file_count_before_evidence_reference_selection": 1931,
+    "candidate_raw_bytes_before_evidence_reference_selection": 207694537,
+    "candidate_top_level_counts": {
+      "<root>": 46,
+      "evidence": 1773,
+      "scripts": 96,
+      "sources": 16
+    },
+    "metadata_exclusion_counts": {
+      "prior_file_index": 1
+    },
+    "pruned_directory_count": 1,
+    "disk_total_bytes": 67586535424,
+    "disk_used_bytes": 32588718080,
+    "disk_free_bytes": 31545069568,
+    "free_space_to_candidate_raw_ratio": 151.88
+  },
+  "filename_safety": {
+    "unsafe_names": [],
+    "symlinks": [],
+    "nonregular_files": [],
+    "case_collisions": []
+  },
+  "limitations": [
+    "Filename and size metadata were inspected for the candidate tree without reading payload contents outside the strict ancillary allowlist.",
+    "Reference-based evidence selection was deliberately not evaluated because editorial-content files were excluded; candidate count/raw bytes are a metadata-only preselection bound, not an exact future ZIP manifest.",
+    "No packager, replay audit, history script, build, or upload was run.",
+    "No active files or previous advisory were changed.",
+    "No author text, source content, mathematical meaning, image/PDF content, or Volume II material was inspected.",
+    "Generic interpreter syntax is accepted and is not an environment-private path."
+  ]
+}

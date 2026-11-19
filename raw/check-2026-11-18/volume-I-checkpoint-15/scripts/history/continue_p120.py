@@ -1,0 +1,40 @@
+"""Primary reviewer's p120 audit; preserve the printed ring-subscript defect."""
+import sys,csv
+from pathlib import Path
+from datetime import datetime,timezone
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
+from edit_support import ROOT,LAYERS,edit_page,verdict
+page='120';anchor=r'\begin{illusiebodypage}{illusie:I:ch1:p120}'
+ev='LNM239 scan PDF p138 / printed p120: both complete 400-dpi halves and nine retained 800-dpi crops personally inspected; all three complete source spans and four prior records read. '
+def region(layer):
+ s=(ROOT/'sources'/LAYERS[layer]).read_text();a=s.index(anchor);b=s.index(r'\end{illusiebodypage}',a);return s[a:b]
+def ch(layer,old,new,line,sid,why,kind='typesetting'):edit_page(layer,anchor,old,new,page,line,sid,ev+why,kind)
+for layer in LAYERS:
+ old=region(layer);new=old.replace(r'\ReflowBodyFont ',r'\ReflowBodyFont\IllusieUprightLatinMath').replace(r'\mathcal O',r'\underline{\mathrm{O}}')
+ ch(layer,old,new,'body and coefficient rings','II.p120.upright-structure-sheaves','All five structure-sheaf O occurrences are underlined upright O, including the twice-occurring O_Y. Other Latin variables and indices are upright; see evidence/I_p120_coefficient-rings.png and evidence/I_p120_coefficient-rings-prime.png.')
+ ch(layer,r'\simeq',r'\mathrel{\overset{\sim}{\rule[.45ex]{14bp}{.35bp}}}','coefficient-ring isomorphism','II.p120.unheaded-isomorphism','The printed isomorphism consists of a tilde over one unheaded horizontal line, not the two strokes of simeq; see evidence/I_p120_coefficient-rings.png.')
+ old=region(layer);new=old.replace(r'\hbox{\hspace*{12bp}\text{#1}\hfill',r'\hbox to\linewidth{\text{#1}\hfill').replace(r'\phantom{\hspace*{12bp}\text{#1}}',r'\phantom{\text{#1}}')
+ ch(layer,old,new,'labels (1.1.4.3) and (1.1.4.5)','II.p120.left-display-labels','The labels are at the left margin; center the formulas with actual full-width stretch while preserving the named display macro.')
+ ch(layer,'baseline=(current bounding box.center)','baseline=(B.base)','ring square label','II.p120.square-baseline','In evidence/I_p120_ring-square.png the label aligns with the upper B row. All four arrow directions and the bottom-right comma are confirmed and retained.')
+ old=region(layer);new=old.replace('i.e.\\par\n\\vspace{5bp}\n\\noindent ','i.e.\n').replace('$B=u^{-1}\\underline{\\mathrm{O}}_X$,\\par\n\\vspace{3.0bp}\n\\noindent ','$B=u^{-1}\\underline{\\mathrm{O}}_X$,\n').replace('\\par\n\\noindent ','\n')
+ ch(layer,old,new,'ordinary prose wraps','II.p120.join-line-wraps','The breaks after i.e., the B definition, the base-change discussion and the two resolution-component lines are printed line wraps inside continuous prose.','structure')
+ old=region(layer);a=old.index(r'\phantomsection\hypertarget{illusie:I:ch1:p120:s1.2.1}');seg=old[a:];new=seg.replace('\\par\n\n','\n').replace(r'\noindent en (I',r'en (I').replace(r'\noindent we defined',r'we defined')
+ ch(layer,seg,new,'1.2.1 across internal anchor','II.p120.join-resolution-intro','The sentence On a defini en (I 1.5.5.6) is uninterrupted in the print; preserve the semantic anchor without inserting a paragraph.','structure')
+ old=region(layer);new=old.rstrip()+'\n'+r'\clearpage'+'\n'
+ ch(layer,old,new,'page boundary','II.p120.page-boundary','The final word par / by continues into the formula on the next printed page; enforce the printed page boundary without inventing its continuation.','structure')
+ch('as-printed',r"$A'=f'^{-1}\underline{\mathrm{O}}_{Y'}$",r"$A'=f'^{-1}\underline{\mathrm{O}}_{X'}$",'definition of A-prime','II.p120.A-prime-original-subscript','evidence/I_p120_coefficient-rings-prime.png clearly prints X-prime. Restore that misprint diplomatically. The corrected and English Y-prime is required because f-prime has source X-prime and target Y-prime, so its inverse-image functor takes sheaves on Y-prime.','reading')
+old=region('corrected');new=old.replace('de modules','de Modules').replace("d'anneaux","d'Anneaux").replace('-algèbre','-Algèbre')
+ch('corrected',old,new,'five object capitals','II.p120.withdraw-capitalization-normalizations','The printed Modules, two Anneaux and two Algebre capitals are conventions, not original errors. Retain only the justified separation augmentee vers.','reading')
+ch('English','we defined the standard free resolution of $B$ over $A$:','the standard free resolution of $B$ over $A$ was defined:','opening of 1.2.1','II.p120.impersonal-register','French On a defini is impersonal. STANDARDS_20261119.md requires impersonal/passive English for on, reserving we for nous.','terminology')
+verdict(page,'ILL-SC-20260804-0117','Printed A-prime=f-prime^{-1}(O_X-prime) restored','Corrected/English O_Y-prime retained with explicit domain proof','The earlier zero-correction assessment missed a silent diplomatic correction. The type mismatch is an original mathematical misprint, not an alternative convention.',ev)
+verdict(page,'ILL-NORM-20260804-0148','Five capitals and augmenteevers','Five capitalization normalizations withdrawn; augmentee vers retained','The enlarged scan confirms the joined words augmenteevers. Inserting the missing word space is justified; normalizing object capitals is not.',ev+'evidence/I_p120_heading-and-resolution.png.')
+verdict(page,'ILL-TX-20260804-0144','Twelve anchors including page; named square and display macros','All preserved; original A-prime defect, underlined O, unheaded isomorphism, left labels, square baseline and continuous prose restored','All indices, primes, inverse-image exponents, pullback stars and arrow directions were inspected. Numbering (1.1.4.1) refers here to p118 inverse-image compatibility; the duplicated p119 number remains an open cross-reference issue.',ev)
+verdict(page,'ILL-TR-20260804-0146','Ringed-topos base change, transitivity and start of free resolution','Mathematical meanings confirmed; on rendered passively under the supplied standard','The cocartesian condition applies to the ring square (1.1.4.4). No unsupported assertion about a cartesian square of topoi is introduced. The recurrence begins on p121 and is deferred.',ev)
+now=datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC');who='GPT-6 Astra Pro; effort not exposed; ILLUSIE continuation 2026-11-19'
+events=[('II.p120.coefficient-ring-types','For f-prime:X-prime->Y-prime, f-prime^{-1} has domain sheaves on Y-prime. Thus f-prime^{-1}(O_X-prime) is generally undefined, while f-prime^{-1}(O_Y-prime) gives the required A-prime. The chosen commutativity isomorphism identifies u^{-1}f^{-1}(O_Y) with f-prime^{-1}v^{-1}(O_Y). The ringed structure maps of f,u,v,f-prime then give the four sides A->B, A->A-prime, B->B-prime, A-prime->B-prime; their compatibility is exactly that of the specified ringed square.'),('II.p120.base-change-map','Inverse-image compatibility identifies Omega(B/A) with u^{-1}Omega(X/Y). Tensoring with B-prime=O_X-prime identifies the source Omega(B/A) tensor_B B-prime with u^*Omega(X/Y). Functoriality of differentials for the coefficient-ring square supplies (1.1.4.3). If that ring square is a pushout, the universal derivation property gives the base-change isomorphism. No flatness assumption or geometric cartesian-square assertion is needed.'),('II.p120.transitivity','On X take A=f^{-1}g^{-1}(O_Z), B=f^{-1}(O_Y), C=O_X. The already checked transitivity sequence Omega(B/A) tensor_B C -> Omega(C/A) -> Omega(C/B) -> 0 identifies, using inverse-image compatibility, with f^*Omega(Y/Z) -> Omega(X/Z) -> Omega(X/Y) -> 0. This verifies all three relative indices, the pullback star, and the terminal zero; it does not assert injectivity at the first term.')]
+with (ROOT/'CHECK_EVENTS.tsv').open('a',newline='') as f:
+ w=csv.writer(f,delimiter='\t',lineterminator='\n')
+ for sid,outcome in events:w.writerow([sid,now,who,'targeted proof check',outcome])
+with (ROOT/'EVIDENCE_INDEX.md').open('a') as f:
+ for p in sorted((ROOT/'evidence').glob('I_p120_*.png')):f.write(f'| evidence/{p.name} | Printed p120, 800-dpi crop inspected during the first reading. |\n')
+print('Page 120 edits and three mathematical checks recorded.')
