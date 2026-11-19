@@ -15,8 +15,8 @@ Each edition comes as a PDF, its complete LaTeX file, and a ZIP of its sources:
 | Volume I | [PDF][01] · [LaTeX][02] · [sources][03] | [PDF][04] · [LaTeX][05] · [sources][06] | [PDF][16] · [LaTeX][07] · [sources][08] |
 | Volume II | [PDF][09] · [LaTeX][10] | [PDF][13] · [LaTeX][14] | [PDF][11] · [LaTeX][12] |
 
-The three editions of Volume II share one [source ZIP][15]. All files are in the
-[release](https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/latest), and the `tex/` folder
+The three editions of Volume II share one [source ZIP][15]. The Volume I files are in the release
+[check-2026-11-19](https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/tag/check-2026-11-19), the Volume II files in [pdf-check-2026-11-15](https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/tag/pdf-check-2026-11-15), and the `tex/` folder
 of this repository holds the same LaTeX files.
 
 - The **diplomatic** French keeps the printed text as it stands, slips included.

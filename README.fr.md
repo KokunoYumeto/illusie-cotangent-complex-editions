@@ -15,8 +15,8 @@ Chaque édition comprend un PDF, son fichier LaTeX complet et une archive ZIP de
 | Volume I | [PDF][01] · [LaTeX][02] · [sources][03] | [PDF][04] · [LaTeX][05] · [sources][06] | [PDF][16] · [LaTeX][07] · [sources][08] |
 | Volume II | [PDF][09] · [LaTeX][10] | [PDF][13] · [LaTeX][14] | [PDF][11] · [LaTeX][12] |
 
-Les trois éditions du volume II partagent une même [archive de sources][15]. Tous les fichiers se trouvent dans la
-[publication (release)](https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/latest), et le
+Les trois éditions du volume II partagent une même [archive de sources][15]. Les fichiers du volume I se trouvent dans la publication
+[check-2026-11-19](https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/tag/check-2026-11-19), ceux du volume II dans [pdf-check-2026-11-15](https://github.com/KokunoYumeto/illusie-cotangent-complex-editions/releases/tag/pdf-check-2026-11-15), et le
 dossier `tex/` de ce dépôt contient les mêmes fichiers LaTeX.
 
 - L'édition **diplomatique** reproduit le texte imprimé tel quel, coquilles comprises.
