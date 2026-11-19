@@ -46,8 +46,8 @@ touchant qu'à la composition, en 23 endroits (commandes accolées à la lettre 
 employée hors de sa portée), chacun consigné dans
 [REPAIR_LOG.tsv](raw/check-2026-11-18/build-repair-2026-11-19/REPAIR_LOG.tsv) ; aucune leçon n'a été changée. Les
 trois éditions du volume I compilent avec LuaLaTeX, deux passes, sans erreur et sans rien qui déborde dans la marge
-(une page de l'anglais, p. 252, dans un chapitre non encore contrôlé, est trop pleine de 3 pt en bas ; rien n'est
-coupé). Claude a comparé deux corrections du contrôle à la numérisation (p. 149, « h = fp = qg » ; p. 169,
+(pour une page de l'anglais, l'espacement des paragraphes de la compilation a reçu un peu plus de
+souplesse). Claude a comparé deux corrections du contrôle à la numérisation (p. 149, « h = fp = qg » ; p. 169,
 Exal_A(P, Ω_{P/A})) : toutes deux sont conformes au relevé. Le français diplomatique du volume I a maintenant aussi un
 [PDF][16].
 

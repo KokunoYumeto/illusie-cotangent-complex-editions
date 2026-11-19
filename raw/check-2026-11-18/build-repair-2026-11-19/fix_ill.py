@@ -51,6 +51,15 @@ for rel in FILES:
     rows.append([rel, t[:t.index(END)].count(NL) + 1, "", "", "rights notice of 15 Nov 2026",
                  "the revised rights notice printed on a last page (notice only)"])
     t = t.replace(END, block + END)
+    # English only: one page (PDF p. 252, chapter V) was 2.97pt too full with all its glue shrunk; more shrink in the
+    # paragraph skip of the reflow settings lets the page builder fit it (layout only)
+    PS = "{2bp plus .3bp minus .2bp}"
+    if rel.startswith("english"):
+        assert t.count(PS) == 1, rel
+        rows.append([rel, t[:t.index(PS)].count(NL) + 1, "Overfull vbox 2.97pt while output is active (PDF p. 252)",
+                     PS, "{2bp plus .3bp minus 1bp}", "paragraph skip of ReflowSettings given 1bp of shrink instead of "
+                     ".2bp (layout only)"])
+        t = t.replace(PS, "{2bp plus .3bp minus 1bp}")
     if not DRY:
         f.write_text(t, encoding="utf-8", newline="")
 for r in rows:

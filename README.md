@@ -45,7 +45,7 @@ The checkpoint's LaTeX did not build. Claude (Claude Opus 5.5 at effort high) re
 in 23 places (control words run together with the next letter, and a display macro used outside its scope), each
 logged in [REPAIR_LOG.tsv](raw/check-2026-11-18/build-repair-2026-11-19/REPAIR_LOG.tsv); no reading was changed.
 The three editions of Volume I build with LuaLaTeX, two passes, without error and with nothing running into the
-margin (one page of the English, p. 252 in an unchecked chapter, is 3pt too full at its foot; nothing is cut off).
+margin (for one page of the English, the paragraph spacing of the build was given a little more shrink).
 Claude compared two of the check's corrections with the scan (p. 149, "h = fp = qg"; p. 169, Exal_A(P, Ω_{P/A})):
 both are as the record says. The diplomatic French of Volume I now also has a [PDF][16].
 
